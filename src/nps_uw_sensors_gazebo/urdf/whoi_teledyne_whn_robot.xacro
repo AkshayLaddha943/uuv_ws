@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="teledyne_whn">
+
+  <xacro:include filename="$(find nps_uw_sensors_gazebo)/urdf/whoi_teledyne_whn.xacro"/>
+
+  <link name="robot_base_link"/>
+
+  <link name="robot_link">
+    <inertial>
+      <!-- These are RexROV values to align with hydrodynamic model -->
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1862.87"/>
+      <inertia
+        ixx="525.39" ixy="1.44" ixz="33.41"
+        iyy="794.20" iyz="2.6"
+        izz="691.23"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://nps_uw_sensors_gazebo/meshes/eNOVUS.dae"/>
+      </geometry>
+      <origin xyz="0 0 -0.4" rpy="0 0 ${0.5*pi}"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="2.5 1.6 1.8"/>
+      </geometry>
+      <origin xyz="-0.1 0 0.5" rpy="0 0 0"/>
+    </collision>
+  </link>
+  <gazebo>
+    <plugin name="uuv_plugin" filename="libuuv_underwater_object_ros_plugin.so">
+      <fluid_density>1028.0</fluid_density>
+      <flow_velocity_topic>hydrodynamics/current_velocity</flow_velocity_topic>
+      <debug>0</debug>
+      <!-- Adding the hydrodynamic and hydrostatic parameters for the vehicle-->
+      <link name="robot_link">
+        <neutrally_buoyant>0</neutrally_buoyant>
+        <volume>1.83826</volume>
+        <box>
+          <width>1.6</width>
+          <length>2.5</length>
+          <height>1.6</height>
+        </box>
+        <center_of_buoyancy>0.0 0.0 0.3</center_of_buoyancy>
+        <hydrodynamic_model>
+          <type>fossen</type>
+          <!-- Added mass: see p.28 in Berg2012 -->
+          <added_mass>
+             779.79 -6.8773 -103.32  8.5426 -165.54 -7.8033
+            -6.8773    1222   51.29  409.44 -5.8488  62.726
+            -103.32   51.29  3659.9  6.1112 -386.42  10.774
+            8.5426  409.44  6.1112   534.9 -10.027  21.019
+            -165.54 -5.8488 -386.42 -10.027  842.69 -1.1162
+            -7.8033  62.726  10.775  21.019 -1.1162  224.32
+          </added_mass>
+          <!-- Linear damping: see p.31 in Berg2012 -->
+          <linear_damping>
+            -74.82 -69.48 -728.4 -268.8 -309.77 -105
+          </linear_damping>
+          <!-- Non-linear damping: see p.30 in Berg2012 -->
+          <quadratic_damping>
+            -748.22 -992.53 -1821.01 -672 -774.44 -523.27
+          </quadratic_damping>
+        </hydrodynamic_model>
+      </link>
+    </plugin>
+  </gazebo>
+
+  <joint name="robot_base_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>  <!-- X-fwd, Y-lft, Z-up (ick!) -->
+    <parent link="robot_base_link"/>
+    <child link="robot_link"/>
+  </joint>
+
+  <!-- Call the macro to attach a DVL on the UUV's forward bottom -->
+  <xacro:teledyne_whn_macro
+    name="dvl" namespace="dvl" xyz="0 0 0"
+    dvl_topic="dvl" ranges_topic="ranges"
+    robot_link="robot_link" joint_xyz="1 0 -0.4"/>
+
+  <!-- Turn gravity (off) for now so that the (unpowered) robot doesn't sink like
+       a rock.  Can remove this once the neutral buoyancy issue (#4) is resolved -->
+  <gazebo reference="robot_link">
+    <turnGravityOff>true</turnGravityOff>
+  </gazebo>
+  <gazebo reference="dvl_link">
+    <turnGravityOff>true</turnGravityOff>
+  </gazebo>
+
+</robot>

@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/install
+
+Name: rviz_sonar_image
+Description: Description of rviz_sonar_image
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

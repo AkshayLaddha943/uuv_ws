@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -O3 -DNDEBUG   CMakeFiles/knnvalidate.dir/knnvalidate.cpp.o  -o knnvalidate  ../libnabo.a -lgomp 

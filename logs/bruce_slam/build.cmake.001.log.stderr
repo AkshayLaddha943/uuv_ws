@@ -1,0 +1,33 @@
+CMake Warning (dev) at CMakeLists.txt:2 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at CMakeLists.txt:32 (target_link_libraries):
+  Policy CMP0023 is not set: Plain and keyword target_link_libraries
+  signatures cannot be mixed.  Run "cmake --help-policy CMP0023" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The keyword signature for target_link_libraries has already been used with
+  the target "pcl".  All uses of target_link_libraries with a target should
+  be either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * /opt/ros/noetic/share/pybind11_catkin/cmake/pybind11Tools.cmake:179 (target_link_libraries)
+   * /opt/ros/noetic/share/pybind11_catkin/cmake/pybind11Tools.cmake:211 (target_link_libraries)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

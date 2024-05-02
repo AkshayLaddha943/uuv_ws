@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target fast_gicp[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/fast_gicp.dir/src/fast_gicp/gicp/lsq_registration.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/fast_gicp.dir/src/fast_gicp/gicp/fast_gicp.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/fast_gicp.dir/src/fast_gicp/gicp/fast_gicp_st.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/fast_gicp.dir/src/fast_gicp/gicp/fast_vgicp.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/fast_gicp/lib/libfast_gicp.so[0m
+[ 55%] Built target fast_gicp
+[35m[1mScanning dependencies of target gicp_align[0m
+[35m[1mScanning dependencies of target gicp_kitti[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/gicp_align.dir/src/align.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/gicp_kitti.dir/src/kitti.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable /home/ecl-109/uuv_ws/devel/.private/fast_gicp/lib/fast_gicp/gicp_kitti[0m
+[ 88%] Built target gicp_kitti
+[100%] [32m[1mLinking CXX executable /home/ecl-109/uuv_ws/devel/.private/fast_gicp/lib/fast_gicp/gicp_align[0m
+[100%] Built target gicp_align

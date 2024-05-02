@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/install
+
+Name: rti_dvl
+Description: Description of rti_dvl
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

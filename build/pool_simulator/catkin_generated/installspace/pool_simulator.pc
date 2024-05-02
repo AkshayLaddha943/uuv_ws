@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/install
+
+Name: pool_simulator
+Description: Description of pool_simulator
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,25 @@
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _bruce_msgs_generate_messages_check_deps_GetOccupancyMap
+[  0%] Built target _bruce_msgs_generate_messages_check_deps_PredictSLAMUpdate
+[  0%] Built target _bruce_msgs_generate_messages_check_deps_QueryExplorationPath
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _bruce_msgs_generate_messages_check_deps_ISAM2Update
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+[ 17%] Built target bruce_msgs_generate_messages_cpp
+[ 34%] Built target bruce_msgs_generate_messages_nodejs
+[ 52%] Built target bruce_msgs_generate_messages_lisp
+[ 78%] Built target bruce_msgs_generate_messages_py
+[100%] Built target bruce_msgs_generate_messages_eus
+[100%] Built target bruce_msgs_generate_messages

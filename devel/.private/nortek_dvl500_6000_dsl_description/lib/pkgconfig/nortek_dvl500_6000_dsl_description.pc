@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/nortek_dvl500_6000_dsl_description
+
+Name: nortek_dvl500_6000_dsl_description
+Description: Description of nortek_dvl500_6000_dsl_description
+Version: 3.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

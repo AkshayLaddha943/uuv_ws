@@ -1,0 +1,7 @@
+Symlinking /home/ecl-109/uuv_ws/devel/lib/libgazebo_ros_pulse_lidar_plugin.so
+Symlinking /home/ecl-109/uuv_ws/devel/lib/nps_uw_sensors_gazebo/cmake.lock
+Symlinking /home/ecl-109/uuv_ws/devel/lib/nps_uw_sensors_gazebo/simple_box_motion.py
+Symlinking /home/ecl-109/uuv_ws/devel/lib/nps_uw_sensors_gazebo/simple_motion.py
+Symlinking /home/ecl-109/uuv_ws/devel/lib/pkgconfig/nps_uw_sensors_gazebo.pc
+Symlinking /home/ecl-109/uuv_ws/devel/share/nps_uw_sensors_gazebo/cmake/nps_uw_sensors_gazeboConfig.cmake
+Symlinking /home/ecl-109/uuv_ws/devel/share/nps_uw_sensors_gazebo/cmake/nps_uw_sensors_gazeboConfig-version.cmake

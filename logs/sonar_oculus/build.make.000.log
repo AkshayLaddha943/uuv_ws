@@ -1,0 +1,55 @@
+[35m[1mScanning dependencies of target sonar_oculus_gencfg[0m
+[  4%] [34m[1mGenerating dynamic reconfigure files from cfg/OculusParams.cfg: /home/ecl-109/uuv_ws/devel/.private/sonar_oculus/include/sonar_oculus/OculusParamsConfig.h /home/ecl-109/uuv_ws/devel/.private/sonar_oculus/lib/python3/dist-packages/sonar_oculus/cfg/OculusParamsConfig.py[0m
+Generating reconfiguration files for OculusParams in sonar_oculus
+Wrote header file in /home/ecl-109/uuv_ws/devel/.private/sonar_oculus/include/sonar_oculus/OculusParamsConfig.h
+[  4%] Built target sonar_oculus_gencfg
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  4%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _sonar_oculus_generate_messages_check_deps_OculusPingUncompressed[0m
+[  4%] Built target _sonar_oculus_generate_messages_check_deps_OculusPingUncompressed
+[35m[1mScanning dependencies of target _sonar_oculus_generate_messages_check_deps_OculusFire[0m
+[  4%] Built target _sonar_oculus_generate_messages_check_deps_OculusFire
+[35m[1mScanning dependencies of target _sonar_oculus_generate_messages_check_deps_OculusPing[0m
+[  4%] Built target _sonar_oculus_generate_messages_check_deps_OculusPing
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  4%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  4%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  4%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  4%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sonar_oculus_generate_messages_cpp[0m
+[  9%] [34m[1mGenerating C++ code from sonar_oculus/OculusFire.msg[0m
+[ 14%] [34m[1mGenerating C++ code from sonar_oculus/OculusPing.msg[0m
+[ 19%] [34m[1mGenerating C++ code from sonar_oculus/OculusPingUncompressed.msg[0m
+[ 19%] Built target sonar_oculus_generate_messages_cpp
+[35m[1mScanning dependencies of target sonar_oculus_generate_messages_lisp[0m
+[ 23%] [34m[1mGenerating Lisp code from sonar_oculus/OculusFire.msg[0m
+[ 28%] [34m[1mGenerating Lisp code from sonar_oculus/OculusPing.msg[0m
+[ 33%] [34m[1mGenerating Lisp code from sonar_oculus/OculusPingUncompressed.msg[0m
+[ 33%] Built target sonar_oculus_generate_messages_lisp
+[35m[1mScanning dependencies of target sonar_oculus_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sonar_oculus_generate_messages_eus[0m
+[ 38%] [34m[1mGenerating Javascript code from sonar_oculus/OculusFire.msg[0m
+[ 42%] [34m[1mGenerating EusLisp code from sonar_oculus/OculusFire.msg[0m
+[ 47%] [34m[1mGenerating Javascript code from sonar_oculus/OculusPing.msg[0m
+[ 52%] [34m[1mGenerating EusLisp code from sonar_oculus/OculusPing.msg[0m
+[ 57%] [34m[1mGenerating Javascript code from sonar_oculus/OculusPingUncompressed.msg[0m
+[ 57%] Built target sonar_oculus_generate_messages_nodejs
+[35m[1mScanning dependencies of target sonar_oculus_generate_messages_py[0m
+[ 66%] [34m[1mGenerating Python from MSG sonar_oculus/OculusFire[0m
+[ 66%] [34m[1mGenerating EusLisp code from sonar_oculus/OculusPingUncompressed.msg[0m
+[ 71%] [34m[1mGenerating Python from MSG sonar_oculus/OculusPing[0m
+[ 76%] [34m[1mGenerating Python from MSG sonar_oculus/OculusPingUncompressed[0m
+[ 80%] [34m[1mGenerating EusLisp manifest code for sonar_oculus[0m
+[ 85%] [34m[1mGenerating Python msg __init__.py for sonar_oculus[0m
+[ 85%] Built target sonar_oculus_generate_messages_py
+[35m[1mScanning dependencies of target sonar_oculus_node[0m
+[ 85%] Built target sonar_oculus_generate_messages_eus
+[35m[1mScanning dependencies of target sonar_oculus_generate_messages[0m
+[ 85%] Built target sonar_oculus_generate_messages
+[ 90%] [32mBuilding CXX object CMakeFiles/sonar_oculus_node.dir/src/sonar.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/sonar_oculus_node.dir/src/OculusClient.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ecl-109/uuv_ws/devel/.private/sonar_oculus/lib/sonar_oculus/sonar_oculus_node[0m
+[100%] Built target sonar_oculus_node

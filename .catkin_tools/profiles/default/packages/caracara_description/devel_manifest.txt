@@ -1,0 +1,2 @@
+dave/urdf/robots/caracara_description
+/home/ecl-109/uuv_ws/devel/.private/caracara_description/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock

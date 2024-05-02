@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ecl-109/uuv_ws/devel/.private/sonardyne_syrinx600_uuvsim_description/setup.sh

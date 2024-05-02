@@ -1,0 +1,26 @@
+[  0%] Built target _hdl_graph_slam_generate_messages_check_deps_SaveMap
+[  0%] Built target _hdl_graph_slam_generate_messages_check_deps_DumpGraph
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _hdl_graph_slam_generate_messages_check_deps_LoadGraph
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target _hdl_graph_slam_generate_messages_check_deps_ScanMatchingStatus
+[  0%] Built target _hdl_graph_slam_generate_messages_check_deps_FloorCoeffs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[ 16%] Built target hdl_graph_slam_generate_messages_py
+[ 20%] Built target prefiltering_nodelet
+[ 32%] Built target hdl_graph_slam_generate_messages_nodejs
+[ 44%] Built target hdl_graph_slam_generate_messages_lisp
+[ 55%] Built target hdl_graph_slam_generate_messages_cpp
+[ 69%] Built target hdl_graph_slam_generate_messages_eus
+[ 69%] Built target hdl_graph_slam_gencpp
+[ 69%] Built target hdl_graph_slam_generate_messages
+[ 81%] Built target floor_detection_nodelet
+[ 81%] Built target scan_matching_odometry_nodelet
+[100%] Built target hdl_graph_slam_nodelet

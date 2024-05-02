@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/install
+
+Name: dave_oberon7_description
+Description: Description of dave_oberon7_description
+Version: 3.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/nps_uw_sensors_gazebo
+
+Name: nps_uw_sensors_gazebo
+Description: Description of nps_uw_sensors_gazebo
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

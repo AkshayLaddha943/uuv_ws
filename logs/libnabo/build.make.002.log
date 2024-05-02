@@ -1,0 +1,87 @@
+[  5%] [34m[1mWriting documentation to /home/ecl-109/uuv_ws/build/libnabo/doc...[0m
+[ 33%] Built target nabo
+[ 55%] Built target trivial
+[ 55%] Built target usage
+[ 88%] Built target knnbucketsize
+[ 88%] Built target knnepsilon
+[ 88%] Built target knnbench
+warning: Tag 'SYMBOL_CACHE_SIZE' at line 289 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'SHOW_DIRECTORIES' at line 473 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'HTML_ALIGN_MEMBERS' at line 799 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'XML_SCHEMA' at line 1136 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'XML_DTD' at line 1142 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'PERL_PATH' at line 1307 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'MSCGEN_PATH' at line 1329 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: doxygen no longer ships with the FreeSans font.
+You may want to clear or change DOT_FONTNAME.
+Otherwise you run the risk that the wrong font is being used for dot generated graphs.
+[100%] Built target knnvalidate
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:198: warning: multiple use of section label 'ANN' while adding anchor, (first occurrence: /home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h, line 169)
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.cpp:50: warning: Compound Nabo::runtime_error is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/third_party/any.hpp:27: warning: Compound linb::bad_any_cast is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/third_party/any.hpp:36: warning: Compound linb::any is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:217: warning: Member invalidIndex() (function) of namespace Nabo is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:223: warning: Member invalidValue() (function) of namespace Nabo is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/third_party/any.hpp:29: warning: Member what() const noexcept override (function) of class linb::bad_any_cast is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:217: warning: Member invalidIndex() (function) of namespace Nabo is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:223: warning: Member invalidValue() (function) of namespace Nabo is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:74: warning: Member Vector (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:75: warning: Member Matrix (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:76: warning: Member Index (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:77: warning: Member IndexVector (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:78: warning: Member IndexMatrix (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:88: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Index k, const T epsilon, const unsigned optionFlags, const T maxRadius) const (function) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:89: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const (function) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:260: warning: Member Vector (typedef) of class Nabo::BruteForceSearchOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:261: warning: Member Matrix (typedef) of class Nabo::BruteForceSearchOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:262: warning: Member Index (typedef) of class Nabo::BruteForceSearchOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:224: warning: Member Vector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:225: warning: Member Matrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:226: warning: Member Index (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:227: warning: Member IndexVector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:228: warning: Member IndexMatrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:274: warning: Member Vector (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:275: warning: Member Matrix (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:276: warning: Member Index (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:277: warning: Member IndexVector (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:278: warning: Member IndexMatrix (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:224: warning: Member Vector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:225: warning: Member Matrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:226: warning: Member Index (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:227: warning: Member IndexVector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:228: warning: Member IndexMatrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:350: warning: Member Vector (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:351: warning: Member Matrix (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:352: warning: Member Index (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:353: warning: Member IndexVector (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:354: warning: Member IndexMatrix (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:224: warning: Member Vector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:225: warning: Member Matrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:226: warning: Member Index (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:227: warning: Member IndexVector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:228: warning: Member IndexMatrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:96: warning: Member Vector (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:97: warning: Member Matrix (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:98: warning: Member Index (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:99: warning: Member IndexVector (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:100: warning: Member IndexMatrix (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:214: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Index k, const T epsilon, const unsigned optionFlags, const T maxRadius) const (function) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:215: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const (function) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:224: warning: Member Vector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:225: warning: Member Matrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:226: warning: Member Index (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:227: warning: Member IndexVector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:228: warning: Member IndexMatrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:252: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Index k, const T epsilon, const unsigned optionFlags, const T maxRadius) const (function) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:253: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const (function) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.cpp:53: warning: Member operator<<(const T &t) (function) of class Nabo::runtime_error is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.cpp:64: warning: Member runtime_error(const runtime_error &re) (function) of class Nabo::runtime_error is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.cpp:51: warning: Member ss (variable) of class Nabo::runtime_error is not documented.
+[100%] Built target doxygen

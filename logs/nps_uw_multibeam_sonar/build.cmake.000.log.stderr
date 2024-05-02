@@ -1,0 +1,25 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[33m[1mCMake Warning[0m at /home/ecl-109/uuv_ws/src/nps_uw_multibeam_sonar/CMakeLists.txt:82 (add_library):
+  Cannot generate a safe linker search path for target
+  nps_multibeam_sonar_ray_ros_plugin because files in some directories may
+  conflict with libraries in implicit directories:
+
+    link library [libcufft.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/lib/x86_64-linux-gnu/stubs
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/ecl-109/uuv_ws/src/nps_uw_multibeam_sonar/CMakeLists.txt:65 (add_library):
+  Cannot generate a safe linker search path for target
+  nps_multibeam_sonar_ros_plugin because files in some directories may
+  conflict with libraries in implicit directories:
+
+    link library [libcufft.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/lib/x86_64-linux-gnu/stubs
+
+  Some of these libraries may not be found correctly.
+
+

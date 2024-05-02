@@ -1,0 +1,14 @@
+[  0%] Built target _rti_dvl_generate_messages_check_deps_BottomTrack
+[  0%] Built target _rti_dvl_generate_messages_check_deps_Command
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _rti_dvl_generate_messages_check_deps_DVL
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[ 41%] Built target rti_dvl_generate_messages_cpp
+[ 41%] Built target rti_dvl_generate_messages_py
+[ 82%] Built target rti_dvl_generate_messages_lisp
+[ 82%] Built target rti_dvl_generate_messages_eus
+[100%] Built target rti_dvl_generate_messages_nodejs
+[100%] Built target rti_dvl_generate_messages

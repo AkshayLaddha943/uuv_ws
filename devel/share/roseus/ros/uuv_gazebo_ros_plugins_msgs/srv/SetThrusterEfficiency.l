@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/uuv_gazebo_ros_plugins_msgs/share/roseus/ros/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterEfficiency.l

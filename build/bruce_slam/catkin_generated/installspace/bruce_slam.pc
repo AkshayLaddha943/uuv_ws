@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/install
+
+Name: bruce_slam
+Description: Description of bruce_slam
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/nortek_dvl500_300_uuvsim_description
+
+Name: nortek_dvl500_300_uuvsim_description
+Description: Description of nortek_dvl500_300_uuvsim_description
+Version: 3.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ecl-109/uuv_ws/devel/.private/nortek_dvl500_6000_dsl_description/setup.sh

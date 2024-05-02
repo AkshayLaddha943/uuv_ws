@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target rviz_sonar_image_autogen[0m
+[ 10%] [34m[1mAutomatic MOC for target rviz_sonar_image[0m
+[ 10%] Built target rviz_sonar_image_autogen
+[35m[1mScanning dependencies of target rviz_sonar_image[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rviz_sonar_image.dir/src/projected_sonar_image_curtain.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rviz_sonar_image.dir/src/color_map.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rviz_sonar_image.dir/rviz_sonar_image_autogen/mocs_compilation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_sonar_image.dir/src/projected_sonar_image_display.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rviz_sonar_image.dir/src/projected_sonar_image_fan.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rviz_sonar_image.dir/src/sonar_image_curtain.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rviz_sonar_image.dir/src/sonar_image_display.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rviz_sonar_image.dir/src/sonar_image_fan.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/rviz_sonar_image/lib/librviz_sonar_image.so[0m
+[100%] Built target rviz_sonar_image

@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/vectornav/share/gennodejs/ros/vectornav/msg/Ins.js

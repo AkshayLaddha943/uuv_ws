@@ -1,0 +1,5 @@
+dave/urdf/dave_snippets
+/home/ecl-109/uuv_ws/devel/.private/dave_snippets/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock
+/home/ecl-109/uuv_ws/devel/.private/dave_snippets/lib/pkgconfig/dave_snippets.pc /home/ecl-109/uuv_ws/devel/lib/pkgconfig/dave_snippets.pc
+/home/ecl-109/uuv_ws/devel/.private/dave_snippets/share/dave_snippets/cmake/dave_snippetsConfig-version.cmake /home/ecl-109/uuv_ws/devel/share/dave_snippets/cmake/dave_snippetsConfig-version.cmake
+/home/ecl-109/uuv_ws/devel/.private/dave_snippets/share/dave_snippets/cmake/dave_snippetsConfig.cmake /home/ecl-109/uuv_ws/devel/share/dave_snippets/cmake/dave_snippetsConfig.cmake

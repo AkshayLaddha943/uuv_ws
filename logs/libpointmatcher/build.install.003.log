@@ -1,0 +1,35 @@
+[ 25%] Built target yaml-cpp-pm
+[ 83%] Built target pointmatcher
+[ 85%] Built target gtest
+[ 87%] Built target pmicp
+[ 88%] Built target icp_simple
+[ 90%] Built target list_modules
+[ 92%] Built target icp_customized
+[ 94%] Built target build_map
+[ 96%] Built target compute_overlap
+[ 97%] Built target align_sequence
+[100%] Built target icp_advance_api
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/include/pointmatcher/DeprecationWarnings.h
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/include/pointmatcher/PointMatcher.h
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/include/pointmatcher/PointMatcherPrivate.h
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/include/pointmatcher/Parametrizable.h
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/include/pointmatcher/Registrar.h
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/include/pointmatcher/Timer.h
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/include/pointmatcher/Functions.h
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/include/pointmatcher/IO.h
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/lib/libpointmatcher.a
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/package.xml
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/libpointmatcher-config.cmake
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/libpointmatcher-config-release.cmake
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/lib/cmake/pointmatcher/libpointmatcherConfig.cmake
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/lib/cmake/pointmatcher/libpointmatcherConfigVersion.cmake
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/libpointmatcherConfig.cmake
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/libpointmatcherConfigVersion.cmake
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/lib/pkgconfig/libpointmatcher.pc
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/lib/pkgconfig/pointmatcher.pc
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/lib/libyaml-cpp-pm.a
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/yaml-cpp-pm-targets.cmake
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/yaml-cpp-pm-targets-release.cmake
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/bin/pmicp

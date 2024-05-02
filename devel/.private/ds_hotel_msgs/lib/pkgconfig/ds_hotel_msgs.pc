@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/ds_hotel_msgs
+
+Name: ds_hotel_msgs
+Description: Description of ds_hotel_msgs
+Version: 0.1.0
+Cflags: -I/home/ecl-109/uuv_ws/devel/.private/ds_hotel_msgs/include
+Libs: -L${prefix}/lib 
+Requires: ds_core_msgs message_generation std_msgs

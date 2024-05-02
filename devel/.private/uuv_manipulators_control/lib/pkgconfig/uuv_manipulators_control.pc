@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control
+
+Name: uuv_manipulators_control
+Description: Description of uuv_manipulators_control
+Version: 0.6.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: uuv_manipulators_kinematics

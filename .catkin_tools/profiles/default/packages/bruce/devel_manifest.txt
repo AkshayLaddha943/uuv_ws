@@ -1,0 +1,2 @@
+sonar-SLAM/bruce
+/home/ecl-109/uuv_ws/devel/.private/bruce/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock

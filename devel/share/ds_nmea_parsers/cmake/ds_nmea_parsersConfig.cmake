@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/ds_nmea_parsers/share/ds_nmea_parsers/cmake/ds_nmea_parsersConfig.cmake

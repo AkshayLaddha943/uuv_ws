@@ -1,0 +1,7 @@
+set(bruce_slam_SETUP_PY_SETUP_MODULE "distutils.core")
+set(bruce_slam_SETUP_PY_VERSION "0.0.1")
+set(bruce_slam_SETUP_PY_SCRIPTS "")
+set(bruce_slam_SETUP_PY_PACKAGES "bruce_slam")
+set(bruce_slam_SETUP_PY_PACKAGE_DIRS "src/bruce_slam")
+set(bruce_slam_SETUP_PY_MODULES "")
+set(bruce_slam_SETUP_PY_MODULE_DIRS "")

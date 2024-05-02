@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -O3 -DNDEBUG   CMakeFiles/knnbench.dir/knnbench.cpp.o  -o knnbench  ../libnabo.a /usr/lib/x86_64-linux-gnu/libflann_cpp.so -lgomp 

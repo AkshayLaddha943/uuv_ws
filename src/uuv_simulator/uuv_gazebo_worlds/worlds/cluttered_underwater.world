@@ -1,0 +1,2709 @@
+<?xml version="1.0" ?>
+<!-- Copyright (c) 2016 The UUV Simulator Authors.
+     All rights reserved.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<sdf version="1.4">
+  <world name="oceans_waves">
+    <physics name="default_physics" default="true" type="ode">
+      <max_step_size>0.002</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>500</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.01 0.01 0.01 1.0</ambient>
+      <sky>
+        <clouds>
+          <speed>12</speed>
+        </clouds>
+      </sky>
+      <shadows>1</shadows>
+    </scene>
+
+    <!-- Origin placed somewhere in the middle of the North Sea  -->
+    <spherical_coordinates>
+      <latitude_deg>56.71897669633431</latitude_deg>
+      <longitude_deg>3.515625</longitude_deg>
+    </spherical_coordinates>
+
+    <!-- Global light source -->
+    <light type="directional" name="sun1">
+      <pose>50 0 150 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>.1 .1 .1 1</specular>
+      <direction>0.3 0.3 -1</direction>
+      <cast_shadows>false</cast_shadows>
+    </light>
+
+    <!-- Global light source -->
+    <light type="directional" name="sun_diffuse">
+      <pose>-50 0 -150 0 0 0</pose>
+      <diffuse>0.6 0.6 0.6 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>false</cast_shadows>
+    </light>
+
+    <!-- Virtual NED frame -->
+    <include>
+      <uri>model://ned_frame</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Bounding box with sea surface -->
+    <include>
+      <uri>model://ocean</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Heightmap -->
+    <include>
+      <uri>model://sand_heightmap</uri>
+      <pose>0 0 -95 0 0 0</pose>
+    </include>
+
+    <model name="visual_obstacle_1">
+  <pose>0.019344984088539116 0.00018805105307251324 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_2">
+  <pose>6.468471475318647 0.701449216353101 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_3">
+  <pose>12.616070551621 2.77268684610263 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_4">
+  <pose>18.17468731275332 6.1170521707498615 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_5">
+  <pose>22.88440701692387 10.578166384709377 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_6">
+  <pose>26.52500840524313 15.947432745508767 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_7">
+  <pose>28.926261003031104 21.973790325627995 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_8">
+  <pose>29.975884907615814 28.37545334243607 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_9">
+  <pose>29.624800871792065 34.85308714820447 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_10">
+  <pose>27.889425194873088 41.10380478554836 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_11">
+  <pose>24.85090211478008 46.835329644919206 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_12">
+  <pose>20.651309593662344 51.7796619940252 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_13">
+  <pose>15.487015910295494 55.70561034745285 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_14">
+  <pose>9.59949769761358 58.429601723574066 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_15">
+  <pose>3.2640487637351163 59.8242653131404 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_16">
+  <pose>-3.2230923405375345 59.82438819676099 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_17">
+  <pose>-9.558594107108036 58.42996462853429 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_18">
+  <pose>-15.44621551477602 55.70619630472012 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_19">
+  <pose>-20.610657930140178 51.78044360488894 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_20">
+  <pose>-24.81043776572352 46.83627036212414 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_21">
+  <pose>-27.849177984134233 41.104860622203496 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_22">
+  <pose>-29.584790470076598 34.8542087345613 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_23">
+  <pose>-29.93611991270269 28.37658823436312 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_24">
+  <pose>-28.88673853774993 21.97488545684005 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_25">
+  <pose>-26.4857142520075 15.948436908887556 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_26">
+  <pose>-22.845316282529865 10.579032626691333 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_27">
+  <pose>-18.13576559235807 6.117739986822663 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_28">
+  <pose>-12.577275537474897 2.7731640747511683 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_29">
+  <pose>-6.429754935028707 0.701693542896173 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_30">
+  <pose>0.019344984088531768 0.00018805105307251324 -19.84525278614261 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.5 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_31">
+  <pose>1 2 -18 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.25</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_32">
+  <pose>2 2 -19 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.4 0.3</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_33">
+  <pose> 3 -20 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.2</radius><length>1</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Blue</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_34">
+  <pose>7 6 -22 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.3</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_35">
+  <pose>5 5 -15 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.7 0.5 0.4</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_36">
+  <pose>6 6 -17 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.25</radius><length>1.2</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Purple</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_37">
+  <pose>7 7 -14 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.6 0.4</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_38">
+  <pose>8 8 -14 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.35</radius><length>0.8</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_39">
+  <pose>9 9 -15 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.4</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_40">
+  <pose>10 10 -16 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.8 0.3 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Gold</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_41">
+  <pose>11 11 -21 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.25</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_42">
+  <pose>12 12 -22 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.4 0.6 0.2</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Blue</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_43">
+  <pose>13 13 -21 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.2</radius><length>0.9</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_44">
+  <pose>14 14 -16 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.35</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_45">
+  <pose>15 15 -15 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.7 0.3</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_46">
+  <pose>16 16 -17 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.3</radius><length>0.7</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_47">
+  <pose>17 17 -11 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.8 0.2</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_48">
+  <pose>18 18 -18 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.4</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_49">
+  <pose>19 19 -11 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.25</radius><length>1.1</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Blue</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_50">
+  <pose>20 20 -13 0 0 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.4 0.5 0.6</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_51">
+  <pose>23 22 -16 0.1 0.2 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.3</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_52">
+  <pose>26 24 -19 0.2 0.1 0</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.4 0.3</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_53">
+  <pose>29 26 -22 -0.1 0 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.2</radius><length>0.5</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_54">
+  <pose>32 28 -25 0 0 -0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.25</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_55">
+  <pose>35 30 -18 0.2 -0.1 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.5 0.4</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_56">
+  <pose>38 32 -11 -0.2 0.2 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.3</radius><length>0.6</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_57">
+  <pose>41 34 -14 0.3 0.1 -0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.4 0.6 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_58">
+  <pose>44 36 -17 -0.3 0 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.35</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_59">
+  <pose>7 8 -10 0.1 -0.2 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.25</radius><length>0.7</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_60">
+  <pose>5 4 -10 -0.1 0.3 -0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.4 0.6</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_61">
+  <pose>5 4 -16 0.2 -0.1 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.3</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_62">
+  <pose>5 4 -27 0 -0.3 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.2</radius><length>0.8</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_63">
+  <pose>9 6 -22.5 -0.2 0.2 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.7 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_64">
+  <pose>6 8 -15 0.3 -0.2 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.28</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_65">
+  <pose>6 5 -18 -0.1 0.1 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.22</radius><length>0.6</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_66">
+  <pose>8 2 -14 0.4 0 -0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.55 0.45 0.65</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_67">
+  <pose>1 4 -24 0.2 -0.3 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.32</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_68">
+  <pose>7 5 -27 -0.2 0.4 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.24</radius><length>0.7</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_69">
+  <pose>7 8 -7 0.1 -0.2 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.65 0.55 0.45</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_70">
+  <pose>8 6 -13 -0.3 0.1 -0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.33</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_71">
+  <pose>8 6 -17 0.2 -0.3 0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.26</radius><length>0.75</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_72">
+  <pose>6 14 -19 -0.1 0.2 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.6 0.6</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_73">
+  <pose>2 6 -12 0.3 -0.1 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.29</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_74">
+  <pose>2 8 -15 -0.2 0.3 -0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.27</radius><length>0.8</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_75">
+  <pose>9 7 -8 0.2 -0.2 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.7 0.5 0.6</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_76">
+  <pose>9 2 -15 -0.3 0.2 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.31</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_77">
+  <pose>10 7 -23 0.1 -0.3 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.28</radius><length>0.85</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_78">
+  <pose>4 5 -25 -0.1 0.4 -0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.65 0.55 0.4</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_79">
+  <pose>10.7 7.8 -10.0 0.4 -0.1 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.34</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_80">
+  <pose>11.0 8.0 -10.3 -0.2 0.2 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.25</radius><length>0.9</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_81">
+  <pose>11.3 8.2 -10.6 0.3 -0.2 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.7 0.5</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_82">
+  <pose>11.6 8.4 -10.9 -0.3 0.3 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.35</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_83">
+  <pose>11.9 8.6 -11.2 0.2 -0.1 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.3</radius><length>0.6</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_84">
+  <pose>12.2 8.8 -15 -0.2 0.4 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.6 0.7</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_85">
+  <pose>12.5 9.0 -11.8 0.3 -0.3 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.36</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_86">
+  <pose>12.8 9.2 -12.1 -0.1 0.2 -0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.28</radius><length>0.8</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_87">
+  <pose>13.1 9.4 -12.4 0.2 -0.4 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.55 0.65 0.75</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_88">
+  <pose>13.4 9.6 -27 -0.3 0.5 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.37</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_89">
+  <pose>13.78 9.8 -13.0 0.3 -0.2 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.29</radius><length>0.9</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_90">
+  <pose>14.0 10.0 -13.3 -0.2 0.3 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.7 0.8</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_91">
+  <pose>14.3 10.2 -13.6 0.4 -0.1 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.38</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_obstacle_92">
+  <pose>14.6 10.4 -13.9 -0.1 0.4 -0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.27</radius><length>1.0</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_93">
+  <pose>-20 20 -40 0.3 -0.3 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.7 0.8</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_94">
+  <pose>-17 18 -35 -0.4 0.2 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.35</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_95">
+  <pose>-14 16 -30 0.2 -0.1 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.3</radius><length>1.1</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_96">
+  <pose>-11 14 -25 -0.1 0.4 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.6 0.7</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_97">
+  <pose>-8 12 -20 0.5 -0.2 0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.36</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_98">
+  <pose>-5 10 -15 -0.3 0.5 -0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.28</radius><length>0.9</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_99">
+  <pose>-2 8 -10 0.2 0.3 -0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.55 0.65 0.75</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_100">
+  <pose>1 6 -5 -0.5 0.2 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.37</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_101">
+  <pose>4 4 -9 0.1 -0.4 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.29</radius><length>1.0</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_102">
+  <pose>7 2 -12 -0.2 0.5 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.7 0.8</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_103">
+  <pose>10 0 -7 0.3 -0.1 0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.38</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_104">
+  <pose>13 -2 -10 -0.3 0.4 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.3</radius><length>1.1</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_105">
+  <pose>16 -4 -8 0.4 -0.2 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.6 0.7</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_106">
+  <pose>19 -6 -5 -0.4 0.3 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.35</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_107">
+  <pose>20 -8 -6 0.2 -0.4 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.31</radius><length>0.9</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_108">
+  <pose>-20 20 -7 -0.1 0.5 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.55 0.65 0.75</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_109">
+  <pose>-17 18 -10 0.3 -0.1 0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.36</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_110">
+  <pose>-14 16 -9 -0.2 0.4 -0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.32</radius><length>1.0</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_111">
+  <pose>-11 14 -8 0.4 -0.3 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.7 0.8</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_112">
+  <pose>-8 12 -7 -0.5 0.2 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.37</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_113">
+  <pose>-5 10 -6 0.2 -0.4 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.31</radius><length>0.9</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_114">
+  <pose>-2 8 -5 -0.1 0.5 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.55 0.65 0.75</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_115">
+  <pose>1 6 -4 0.3 -0.1 0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.38</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_116">
+  <pose>4 4 -3 -0.2 0.3 -0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.32</radius><length>1.0</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_123">
+  <pose>-20 20 -6 0.3 -0.4 0.5</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.5 0.4</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_124">
+  <pose>-17 18 -7 -0.5 0.1 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.34</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_125">
+  <pose>-14 16 -5 0.2 0.3 -0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.33</radius><length>1.2</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_126">
+  <pose>-11 14 -3 -0.1 0.4 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.55 0.6 0.65</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_127">
+  <pose>-8 12 -2 0.4 -0.2 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.35</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_128">
+  <pose>-5 10 -1 -0.3 0.5 -0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.32</radius><length>1.1</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_129">
+  <pose>-2 8 0 0.2 -0.3 0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.5 0.55 0.6</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_130">
+  <pose>1 6 1 -0.4 0.2 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.36</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_131">
+  <pose>4 4 2 0.3 -0.4 0.5</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.34</radius><length>1.3</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_132">
+  <pose>7 2 3 -0.2 0.3 -0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.65 0.7</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_133">
+  <pose>10 0 4 0.1 -0.5 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.37</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_134">
+  <pose>13 -2 5 -0.3 0.2 0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.35</radius><length>1.2</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_135">
+  <pose>16 -4 6 0.5 -0.3 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.55 0.6 0.65</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_136">
+  <pose>19 -6 7 -0.1 0.4 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.38</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_137">
+  <pose>20 -8 8 0.2 -0.5 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.36</radius><length>1.1</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_138">
+  <pose>-20 20 9 -0.4 0.1 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.7 0.8</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_139">
+  <pose>-17 18 10 0.3 -0.2 -0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.39</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_140">
+  <pose>-14 16 11 -0.2 0.3 0.5</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.37</radius><length>1.3</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_141">
+  <pose>-11 14 12 0.5 -0.1 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.65 0.55 0.45</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_142">
+  <pose>-8 12 13 -0.3 0.4 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.4</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_143">
+  <pose>-5 10 14 0.2 -0.5 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.35</radius><length>1.2</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_144">
+  <pose>-2 8 15 -0.1 0.3 -0.4</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.65 0.7</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_145">
+  <pose>1 6 16 0.4 -0.2 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.41</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_146">
+  <pose>4 4 17 -0.2 0.1 -0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.36</radius><length>1.1</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_147">
+  <pose>7 2 18 0.3 -0.4 0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.55 0.6 0.65</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_148">
+  <pose>10 0 19 -0.5 0.2 0.1</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <sphere><radius>0.42</radius></sphere>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Red</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_149">
+  <pose>13 -2 20 0.2 -0.3 -0.2</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <cylinder><radius>0.37</radius><length>1.3</length></cylinder>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Green</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name="visual_object_150">
+  <pose>16 -4 21 -0.1 0.4 0.3</pose>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <box><size>0.6 0.7 0.8</size></box>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </visual>
+  </link>
+</model>
+
+
+    <plugin name="underwater_current_plugin" filename="libuuv_underwater_current_ros_plugin.so">
+      <namespace>hydrodynamics</namespace>
+      <constant_current>
+        <topic>current_velocity</topic>
+        <velocity>
+          <mean>0</mean>
+          <min>0</min>
+          <max>5</max>
+          <mu>0.0</mu>
+          <noiseAmp>0.0</noiseAmp>
+        </velocity>
+
+        <horizontal_angle>
+          <mean>0</mean>
+          <min>-3.141592653589793238</min>
+          <max>3.141592653589793238</max>
+          <mu>0.0</mu>
+          <noiseAmp>0.0</noiseAmp>
+        </horizontal_angle>
+
+        <vertical_angle>
+          <mean>0</mean>
+          <min>-3.141592653589793238</min>
+          <max>3.141592653589793238</max>
+          <mu>0.0</mu>
+          <noiseAmp>0.0</noiseAmp>
+        </vertical_angle>
+      </constant_current>
+    </plugin>
+
+    <plugin name="sc_interface" filename="libuuv_sc_ros_interface_plugin.so"/>
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>34.6042 32.2383 -20.6633 0 0.528384 1.41245</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+  </world>
+</sdf>

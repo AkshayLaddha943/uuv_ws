@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target gazebo_ros_pulse_lidar_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_pulse_lidar_plugin.dir/src/gazebo_ros_pulse_lidar.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/nps_uw_sensors_gazebo/lib/libgazebo_ros_pulse_lidar_plugin.so[0m
+[100%] Built target gazebo_ros_pulse_lidar_plugin

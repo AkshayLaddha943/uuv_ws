@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_msgs/lib/python3/dist-packages/uuv_manipulators_msgs/srv/__init__.py

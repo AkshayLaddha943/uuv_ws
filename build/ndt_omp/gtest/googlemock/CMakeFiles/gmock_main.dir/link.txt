@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2  -fopenmp -O3 -DNDEBUG   -shared -Wl,-soname,libgmock_main.so -o ../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/ecl-109/uuv_ws/build/ndt_omp/gtest/lib ../lib/libgmock.so ../lib/libgtest.so 

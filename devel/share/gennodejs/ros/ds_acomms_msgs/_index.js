@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/ds_acomms_msgs/share/gennodejs/ros/ds_acomms_msgs/_index.js

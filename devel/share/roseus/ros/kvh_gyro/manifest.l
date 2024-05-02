@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/kvh_gyro/share/roseus/ros/kvh_gyro/manifest.l

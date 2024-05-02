@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/oberon4_description/share/oberon4_description/cmake/oberon4_descriptionConfig-version.cmake

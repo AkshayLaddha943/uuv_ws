@@ -1,0 +1,3 @@
+<launch>
+    <node name="topics_to_csv_logger" pkg="eca_a9_control" type="performance_logger.py" output="screen" />
+</launch>

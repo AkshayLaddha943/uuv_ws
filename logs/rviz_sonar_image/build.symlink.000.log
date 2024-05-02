@@ -1,0 +1,4 @@
+Symlinking /home/ecl-109/uuv_ws/devel/lib/librviz_sonar_image.so
+Symlinking /home/ecl-109/uuv_ws/devel/lib/pkgconfig/rviz_sonar_image.pc
+Symlinking /home/ecl-109/uuv_ws/devel/share/rviz_sonar_image/cmake/rviz_sonar_imageConfig.cmake
+Symlinking /home/ecl-109/uuv_ws/devel/share/rviz_sonar_image/cmake/rviz_sonar_imageConfig-version.cmake

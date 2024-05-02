@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/dave_worlds
+
+Name: dave_worlds
+Description: Description of dave_worlds
+Version: 3.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

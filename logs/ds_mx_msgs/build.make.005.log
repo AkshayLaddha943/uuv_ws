@@ -1,0 +1,30 @@
+[  0%] Built target _ds_mx_msgs_generate_messages_check_deps_MissionDisplay
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _ds_mx_msgs_generate_messages_check_deps_MissionElementDisplay
+[  0%] Built target ds_core_msgs_generate_messages_eus
+[  0%] Built target _ds_mx_msgs_generate_messages_check_deps_MxTaskStatus
+[  0%] Built target _ds_mx_msgs_generate_messages_check_deps_StdPayloadCommand
+[  0%] Built target _ds_mx_msgs_generate_messages_check_deps_MxUpdateSharedParams
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _ds_mx_msgs_generate_messages_check_deps_MxEvent
+[  0%] Built target _ds_mx_msgs_generate_messages_check_deps_MxMissionStatus
+[  0%] Built target _ds_mx_msgs_generate_messages_check_deps_MxEventLog
+[  0%] Built target _ds_mx_msgs_generate_messages_check_deps_MxSharedParams
+[  0%] Built target ds_core_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target ds_core_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target ds_core_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target ds_core_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[ 20%] Built target ds_mx_msgs_generate_messages_eus
+[ 39%] Built target ds_mx_msgs_generate_messages_nodejs
+[ 62%] Built target ds_mx_msgs_generate_messages_py
+[ 81%] Built target ds_mx_msgs_generate_messages_lisp
+[100%] Built target ds_mx_msgs_generate_messages_cpp
+[100%] Built target ds_mx_msgs_generate_messages

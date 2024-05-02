@@ -1,0 +1,221 @@
+[ 27%] Built target nabo
+[ 33%] [34m[1mWriting documentation to /home/ecl-109/uuv_ws/build/libnabo/doc...[0m
+warning: Tag 'SYMBOL_CACHE_SIZE' at line 289 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'SHOW_DIRECTORIES' at line 473 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'HTML_ALIGN_MEMBERS' at line 799 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'XML_SCHEMA' at line 1136 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'XML_DTD' at line 1142 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'PERL_PATH' at line 1307 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'MSCGEN_PATH' at line 1329 of file '/home/ecl-109/uuv_ws/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: doxygen no longer ships with the FreeSans font.
+You may want to clear or change DOT_FONTNAME.
+Otherwise you run the risk that the wrong font is being used for dot generated graphs.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:198: warning: multiple use of section label 'ANN' while adding anchor, (first occurrence: /home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h, line 169)
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.cpp:50: warning: Compound Nabo::runtime_error is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/third_party/any.hpp:27: warning: Compound linb::bad_any_cast is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/third_party/any.hpp:36: warning: Compound linb::any is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:217: warning: Member invalidIndex() (function) of namespace Nabo is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:223: warning: Member invalidValue() (function) of namespace Nabo is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/third_party/any.hpp:29: warning: Member what() const noexcept override (function) of class linb::bad_any_cast is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:217: warning: Member invalidIndex() (function) of namespace Nabo is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.h:223: warning: Member invalidValue() (function) of namespace Nabo is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:74: warning: Member Vector (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:75: warning: Member Matrix (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:76: warning: Member Index (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:77: warning: Member IndexVector (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:78: warning: Member IndexMatrix (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:88: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Index k, const T epsilon, const unsigned optionFlags, const T maxRadius) const (function) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:89: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const (function) of class Nabo::BruteForceSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:260: warning: Member Vector (typedef) of class Nabo::BruteForceSearchOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:261: warning: Member Matrix (typedef) of class Nabo::BruteForceSearchOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:262: warning: Member Index (typedef) of class Nabo::BruteForceSearchOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:224: warning: Member Vector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:225: warning: Member Matrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:226: warning: Member Index (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:227: warning: Member IndexVector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:228: warning: Member IndexMatrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:274: warning: Member Vector (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:275: warning: Member Matrix (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:276: warning: Member Index (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:277: warning: Member IndexVector (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:278: warning: Member IndexMatrix (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:224: warning: Member Vector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:225: warning: Member Matrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:226: warning: Member Index (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:227: warning: Member IndexVector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:228: warning: Member IndexMatrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:350: warning: Member Vector (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:351: warning: Member Matrix (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:352: warning: Member Index (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:353: warning: Member IndexVector (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:354: warning: Member IndexMatrix (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:224: warning: Member Vector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:225: warning: Member Matrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:226: warning: Member Index (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:227: warning: Member IndexVector (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:228: warning: Member IndexMatrix (typedef) of class OpenCLSearch< T, Eigen::Matrix< T, Eigen::Dynamic, Eigen::Dynamic > > is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:96: warning: Member Vector (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:97: warning: Member Matrix (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:98: warning: Member Index (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:99: warning: Member IndexVector (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:100: warning: Member IndexMatrix (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:214: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Index k, const T epsilon, const unsigned optionFlags, const T maxRadius) const (function) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:215: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const (function) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:224: warning: Member Vector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:225: warning: Member Matrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:226: warning: Member Index (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:227: warning: Member IndexVector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:228: warning: Member IndexMatrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:252: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Index k, const T epsilon, const unsigned optionFlags, const T maxRadius) const (function) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo_private.h:253: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const (function) of class Nabo::OpenCLSearch is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.cpp:53: warning: Member operator<<(const T &t) (function) of class Nabo::runtime_error is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.cpp:64: warning: Member runtime_error(const runtime_error &re) (function) of class Nabo::runtime_error is not documented.
+/home/ecl-109/uuv_ws/src/libnabo/nabo/nabo.cpp:51: warning: Member ss (variable) of class Nabo::runtime_error is not documented.
+[ 33%] Built target doxygen
+[ 44%] Built target usage
+[ 55%] Built target trivial
+[ 66%] Built target knnbucketsize
+[ 77%] Built target knnepsilon
+[ 88%] Built target knnbench
+[100%] Built target knnvalidate
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ecl-109/uuv_ws/devel/lib/libnabo.a
+-- Installing: /home/ecl-109/uuv_ws/devel/include/nabo/nabo.h
+-- Installing: /home/ecl-109/uuv_ws/devel/include/nabo/third_party/any.hpp
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/README.md
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInLeavesStackOpenCL_1_1Node.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInNodesStackOpenCL_1_1CompareDim-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInNodesStackOpenCL.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/tabs.css
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/index__heap_8h.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/classNabo_1_1ContextManager.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/doc.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInLeavesStackOpenCL_1_1Node-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/classlinb_1_1bad__any__cast.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/tab_s.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1IndexHeapBruteForceVector.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1BruteForceSearchOpenCL-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1IndexHeapSTL_1_1Entry-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/classlinb_1_1any.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/tab_h.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/tab_b.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/functions_vars.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/bdwn.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/nav_f.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/functions.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/dir_308038d4e54ad11a9010a7810149e873.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/classes.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/annotated.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1Parameters-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1IndexHeapBruteForceVector-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/bc_s.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1EnableCLTypeSupport.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1OpenCLSearch-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/classlinb_1_1bad__any__cast.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/hierarchy.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1IndexHeapBruteForceVector_1_1Entry-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/group__public.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1runtime__error.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/functions_func.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/classNabo_1_1ContextManager-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1BruteForceSearch.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/nav_g.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/nabo_8cpp.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInLeavesStackOpenCL_1_1CompareDim.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/closed.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1EnableCLTypeSupport_3_01double_00_01CloudType_01_4.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1IndexHeapBruteForceVector_1_1Entry.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInLeavesStackOpenCL_1_1BuildPoint-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/kdtree__opencl_8cpp.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/doxygen.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInNodesStackOpenCL_1_1Node.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInLeavesStackOpenCL-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/nabo_8h_source.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt_1_1Node.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/folderopen.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/namespaces.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/sync_on.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/classlinb_1_1any-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/sync_off.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1IndexHeapSTL_1_1Entry.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/splitbar.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/open.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/functions_eval.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/modules.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1EnableCLTypeSupport_3_01float_00_01CloudType_01_4.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/jquery.js
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1BruteForceSearchOpenCL.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/namespacemembers.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/doxygen.css
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/kdtree__cpu_8cpp.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1BruteForceSearch.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/nabo_8h.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1BruteForceSearch-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInLeavesStackOpenCL.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1OpenCLSearch.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/nabo__private_8h.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/namespaceNabo.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/namespacemembers_func.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInNodesStackOpenCL-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/dynsections.js
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt_1_1BucketEntry.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1Parameters.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1OpenCLSearch.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1SourceCacher.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/functions_rela.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/tab_a.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInLeavesStackOpenCL_1_1BuildPoint.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/nabo__private_8h_source.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInNodesStackOpenCL_1_1CompareDim.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/brute__force__cpu_8cpp.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1NearestNeighbourSearch.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/dir_8b7879ded58a6d599fd8a2bc1ed836bd.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInNodesStackOpenCL.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/classlinb_1_1bad__any__cast-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1IndexHeapSTL.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1runtime__error-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/any_8hpp_source.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInLeavesStackOpenCL_1_1CompareDim-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/menu.js
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/functions_type.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/nav_h.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/files.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/globals.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInNodesStackOpenCL_1_1Node-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt_1_1Node-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt_1_1BucketEntry-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1NearestNeighbourSearch-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1BruteForceSearchOpenCL.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/index__heap_8h_source.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1runtime__error.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/group__private.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1SourceCacher-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/namespacemembers_type.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1Parameters.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/functions_enum.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/folderclosed.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1EnableCLTypeSupport_3_01float_00_01CloudType_01_4-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/index.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/globals_defs.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1KDTreeBalancedPtInLeavesStackOpenCL.png
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/menudata.js
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1IndexHeapSTL-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/doc/libnabo/api/html/structNabo_1_1EnableCLTypeSupport_3_01double_00_01CloudType_01_4-members.html
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libnabo/package.xml
+-- Up-to-date: /home/ecl-109/uuv_ws/devel/lib/libnabo.a
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libnabo/cmake/libnabo-targets.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libnabo/cmake/libnabo-targets-release.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libnabo/cmake/libnaboConfig.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libnabo/cmake/libnaboConfigVersion.cmake

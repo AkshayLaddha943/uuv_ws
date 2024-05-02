@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -O3 -DNDEBUG   CMakeFiles/trivial.dir/trivial.cpp.o  -o trivial  ../libnabo.a -lgomp 

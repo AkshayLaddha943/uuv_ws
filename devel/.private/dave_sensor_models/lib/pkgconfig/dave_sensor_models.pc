@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/dave_sensor_models
+
+Name: dave_sensor_models
+Description: Description of dave_sensor_models
+Version: 3.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

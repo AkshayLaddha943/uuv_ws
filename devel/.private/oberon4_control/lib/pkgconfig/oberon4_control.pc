@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/oberon4_control
+
+Name: oberon4_control
+Description: Description of oberon4_control
+Version: 0.6.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

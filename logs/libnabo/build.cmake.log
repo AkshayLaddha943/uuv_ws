@@ -1,0 +1,35 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m 1.0.7
+[36m--[0m No build type specified; defaulting to CMAKE_BUILD_TYPE=Release.
+[36m--[0m Found Doxygen: /usr/bin/doxygen (found version "1.8.17") found components: doxygen dot
+[36m--[0m Found DOXYFILE_IN: /home/ecl-109/uuv_ws/src/libnabo/Doxyfile.in
+[36m--[0m Could NOT find LATEX (missing: LATEX_COMPILER)
+OpenCL disabled, not looking for it
+[36m--[0m Found OpenMP_C: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP_CXX: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP: TRUE (found version "4.5")
+ANN not found, disabling it in benchmarks
+FLANN found, enabling it in benchmarks
+[36m--[0m Found PythonInterp: /usr/bin/python (found version "3.8.10")
+Python version from interpreter is 3.8.10
+[36m--[0m Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10")
+Python libs and executable found, looking for numpy and boost::python
+[36m--[0m Could NOT find Boost: missing: python3 (found /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0"))
+[36m--[0m Found numpy: /home/ecl-109/.local/lib/python3.8/site-packages/numpy
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/ecl-109/uuv_ws/build/libnabo

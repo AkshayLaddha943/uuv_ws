@@ -1,0 +1,6 @@
+Argonaut/bluerov_bridge
+/home/ecl-109/uuv_ws/devel/.private/bluerov_bridge/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock
+/home/ecl-109/uuv_ws/devel/.private/bluerov_bridge/lib/python3/dist-packages/bluerov_bridge/__init__.py /home/ecl-109/uuv_ws/devel/lib/python3/dist-packages/bluerov_bridge/__init__.py
+/home/ecl-109/uuv_ws/devel/.private/bluerov_bridge/lib/pkgconfig/bluerov_bridge.pc /home/ecl-109/uuv_ws/devel/lib/pkgconfig/bluerov_bridge.pc
+/home/ecl-109/uuv_ws/devel/.private/bluerov_bridge/share/bluerov_bridge/cmake/bluerov_bridgeConfig-version.cmake /home/ecl-109/uuv_ws/devel/share/bluerov_bridge/cmake/bluerov_bridgeConfig-version.cmake
+/home/ecl-109/uuv_ws/devel/.private/bluerov_bridge/share/bluerov_bridge/cmake/bluerov_bridgeConfig.cmake /home/ecl-109/uuv_ws/devel/share/bluerov_bridge/cmake/bluerov_bridgeConfig.cmake

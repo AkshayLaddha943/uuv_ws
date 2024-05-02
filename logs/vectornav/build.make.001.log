@@ -1,0 +1,14 @@
+[  0%] Built target _vectornav_generate_messages_check_deps_Ins
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 72%] Built target libvncxx
+[ 75%] Built target vectornav_generate_messages_lisp
+[ 81%] Built target vectornav_generate_messages_py
+[ 84%] Built target vectornav_generate_messages_cpp
+[ 90%] Built target vectornav_generate_messages_eus
+[ 93%] Built target vectornav_generate_messages_nodejs
+[ 93%] Built target vectornav_generate_messages
+[100%] Built target vnpub

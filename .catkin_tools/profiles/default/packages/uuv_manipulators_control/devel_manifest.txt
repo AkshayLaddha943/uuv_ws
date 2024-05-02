@@ -1,0 +1,11 @@
+uuv_manipulators/uuv_manipulators_control
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/lib/uuv_manipulators_control/cmake.lock /home/ecl-109/uuv_ws/devel/lib/uuv_manipulators_control/cmake.lock
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/lib/uuv_manipulators_control/gripper_controller.py /home/ecl-109/uuv_ws/devel/lib/uuv_manipulators_control/gripper_controller.py
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/lib/uuv_manipulators_control/joint_position_controller.py /home/ecl-109/uuv_ws/devel/lib/uuv_manipulators_control/joint_position_controller.py
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/lib/uuv_manipulators_control/set_joint_config.py /home/ecl-109/uuv_ws/devel/lib/uuv_manipulators_control/set_joint_config.py
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/lib/uuv_manipulators_control/jt_cartesian_controller.py /home/ecl-109/uuv_ws/devel/lib/uuv_manipulators_control/jt_cartesian_controller.py
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/lib/python3/dist-packages/uuv_manipulators_control/__init__.py /home/ecl-109/uuv_ws/devel/lib/python3/dist-packages/uuv_manipulators_control/__init__.py
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/lib/pkgconfig/uuv_manipulators_control.pc /home/ecl-109/uuv_ws/devel/lib/pkgconfig/uuv_manipulators_control.pc
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/share/uuv_manipulators_control/cmake/uuv_manipulators_controlConfig-version.cmake /home/ecl-109/uuv_ws/devel/share/uuv_manipulators_control/cmake/uuv_manipulators_controlConfig-version.cmake
+/home/ecl-109/uuv_ws/devel/.private/uuv_manipulators_control/share/uuv_manipulators_control/cmake/uuv_manipulators_controlConfig.cmake /home/ecl-109/uuv_ws/devel/share/uuv_manipulators_control/cmake/uuv_manipulators_controlConfig.cmake

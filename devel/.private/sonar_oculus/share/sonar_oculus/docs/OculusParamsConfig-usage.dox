@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="sonar_oculus" pkg="sonar_oculus" type="sonar_oculus">
+  <param name="Mode" type="int" value="1" />
+  <param name="PingRate" type="int" value="3" />
+  <param name="Gain" type="int" value="20" />
+  <param name="Range" type="int" value="10" />
+  <param name="Salinity" type="int" value="0" />
+  <param name="Colormap" type="int" value="1" />
+  <param name="Raw" type="bool" value="False" />
+</node>
+\endverbatim
+

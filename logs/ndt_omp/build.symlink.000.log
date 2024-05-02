@@ -1,0 +1,5 @@
+Symlinking /home/ecl-109/uuv_ws/devel/lib/libndt_omp.so
+Symlinking /home/ecl-109/uuv_ws/devel/lib/ndt_omp/align
+Symlinking /home/ecl-109/uuv_ws/devel/lib/pkgconfig/ndt_omp.pc
+Symlinking /home/ecl-109/uuv_ws/devel/share/ndt_omp/cmake/ndt_ompConfig.cmake
+Symlinking /home/ecl-109/uuv_ws/devel/share/ndt_omp/cmake/ndt_ompConfig-version.cmake

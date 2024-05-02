@@ -1,0 +1,119 @@
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target uuv_sensor_ros_plugins_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target bond_generate_messages_nodejs
+[  1%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_sensor_gazebo_msgs.so[0m
+[  1%] Built target bond_generate_messages_lisp
+[  1%] Built target bond_generate_messages_eus
+[  1%] Built target nodelet_generate_messages_nodejs
+[  1%] Built target nodelet_generate_messages_eus
+[  1%] Built target uuv_sensor_ros_plugins_msgs_generate_messages_cpp
+[  1%] Built target nodelet_generate_messages_cpp
+[  1%] Built target nodelet_generate_messages_py
+[  1%] Built target std_srvs_generate_messages_nodejs
+[  1%] Built target std_srvs_generate_messages_lisp
+[  1%] Built target std_srvs_generate_messages_eus
+[  1%] Built target trajectory_msgs_generate_messages_nodejs
+[  1%] Built target rosgraph_msgs_generate_messages_nodejs
+[  1%] Built target actionlib_generate_messages_cpp
+[  1%] Built target actionlib_msgs_generate_messages_py
+[  1%] Built target dynamic_reconfigure_generate_messages_py
+[  1%] Built target actionlib_msgs_generate_messages_eus
+[  1%] Built target std_srvs_generate_messages_py
+[  1%] Built target uuv_sensor_ros_plugins_msgs_generate_messages_eus
+[  1%] Built target rosgraph_msgs_generate_messages_eus
+[  1%] Built target roscpp_generate_messages_eus
+[  1%] Built target nodelet_generate_messages_lisp
+[  3%] Built target geometry_msgs_generate_messages_eus
+[ 20%] Built target uuv_sensor_gazebo_msgs
+[ 20%] Built target std_msgs_generate_messages_nodejs
+[ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[ 20%] Built target std_msgs_generate_messages_cpp
+[ 20%] Built target tf_generate_messages_eus
+[ 20%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 20%] Built target tf2_msgs_generate_messages_cpp
+[ 20%] Built target gazebo_msgs_generate_messages_py
+[ 20%] Built target roscpp_generate_messages_nodejs
+[ 20%] Built target geometry_msgs_generate_messages_lisp
+[ 20%] Built target uuv_sensor_ros_plugins_msgs_generate_messages_nodejs
+[ 20%] Built target roscpp_generate_messages_lisp
+[ 20%] Built target tf_generate_messages_cpp
+[ 20%] Built target roscpp_generate_messages_cpp
+[ 20%] Built target actionlib_generate_messages_lisp
+[ 20%] Built target tf2_msgs_generate_messages_eus
+[ 20%] Built target geometry_msgs_generate_messages_py
+[ 20%] Built target sensor_msgs_generate_messages_py
+[ 20%] Built target sensor_msgs_generate_messages_nodejs
+[ 20%] Built target visualization_msgs_generate_messages_cpp
+[ 20%] Built target sensor_msgs_generate_messages_eus
+[ 20%] Built target sensor_msgs_generate_messages_lisp
+[ 20%] Built target std_msgs_generate_messages_lisp
+[ 20%] Built target std_srvs_generate_messages_cpp
+[ 20%] Built target gazebo_plugins_gencfg
+[ 20%] Built target std_msgs_generate_messages_py
+[ 20%] Built target rosgraph_msgs_generate_messages_py
+[ 20%] Built target nav_msgs_generate_messages_nodejs
+[ 20%] Built target sensor_msgs_generate_messages_cpp
+[ 20%] Built target geometry_msgs_generate_messages_cpp
+[ 20%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 20%] Built target bond_generate_messages_cpp
+[ 20%] Built target gazebo_msgs_generate_messages_lisp
+[ 20%] Built target tf2_msgs_generate_messages_py
+[ 20%] Built target nav_msgs_generate_messages_py
+[ 20%] Built target tf_generate_messages_lisp
+[ 20%] Built target tf_generate_messages_nodejs
+[ 20%] Built target uuv_sensor_ros_plugins_msgs_generate_messages_lisp
+[ 20%] Built target gazebo_msgs_generate_messages_cpp
+[ 20%] Built target trajectory_msgs_generate_messages_py
+[ 20%] Built target actionlib_generate_messages_eus
+[ 20%] Built target actionlib_msgs_generate_messages_cpp
+[ 20%] Built target rosgraph_msgs_generate_messages_cpp
+[ 20%] Built target actionlib_generate_messages_nodejs
+[ 20%] Built target gazebo_msgs_generate_messages_nodejs
+[ 20%] Built target roscpp_generate_messages_py
+[ 20%] Built target actionlib_generate_messages_py
+[ 20%] Built target trajectory_msgs_generate_messages_eus
+[ 20%] Built target trajectory_msgs_generate_messages_cpp
+[ 20%] Built target std_msgs_generate_messages_eus
+[ 20%] Built target tf_generate_messages_py
+[ 20%] Built target actionlib_msgs_generate_messages_nodejs
+[ 20%] Built target actionlib_msgs_generate_messages_lisp
+[ 20%] Built target dynamic_reconfigure_generate_messages_eus
+[ 20%] Built target tf2_msgs_generate_messages_nodejs
+[ 20%] Built target tf2_msgs_generate_messages_lisp
+[ 20%] Built target geometry_msgs_generate_messages_nodejs
+[ 20%] Built target gazebo_msgs_generate_messages_eus
+[ 20%] Built target uuv_sensor_ros_plugins_xacro_generated_to_devel_space_
+[ 22%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_rpt_plugin.so[0m
+[ 24%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_imu_plugin.so[0m
+[ 26%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_dvl_plugin.so[0m
+[ 28%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_base_sensor_plugin.so[0m
+[ 30%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_base_model_plugin.so[0m
+[ 33%] Built target uuv_gazebo_ros_base_model_plugin
+[ 37%] Built target uuv_gazebo_ros_base_sensor_plugin
+[ 39%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_magnetometer_plugin.so[0m
+[ 45%] Built target uuv_gazebo_ros_rpt_plugin
+[ 50%] Built target uuv_gazebo_ros_imu_plugin
+[ 56%] Built target uuv_gazebo_ros_dvl_plugin
+[ 58%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_cpc_plugin.so[0m
+[ 60%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libimage_sonar_ros_plugin.so[0m
+[ 66%] Built target uuv_gazebo_ros_magnetometer_plugin
+[ 67%] Built target image_sonar_ros_plugin
+[ 69%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_subsea_pressure_plugin.so[0m
+[ 71%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_pose_gt_plugin.so[0m
+[ 73%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_gps_plugin.so[0m
+[ 79%] Built target uuv_gazebo_ros_cpc_plugin
+[ 81%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_camera_plugin.so[0m
+[ 83%] Built target uuv_gazebo_ros_camera_plugin
+[ 88%] Built target uuv_gazebo_ros_pose_gt_plugin
+[ 94%] Built target uuv_gazebo_ros_gps_plugin
+[100%] Built target uuv_gazebo_ros_subsea_pressure_plugin

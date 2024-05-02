@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/ds_acomms_msgs/lib/pkgconfig/ds_acomms_msgs.pc

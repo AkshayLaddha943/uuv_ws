@@ -1,0 +1,5 @@
+uuv_manipulators/oberon4/oberon4_description
+/home/ecl-109/uuv_ws/devel/.private/oberon4_description/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock
+/home/ecl-109/uuv_ws/devel/.private/oberon4_description/lib/pkgconfig/oberon4_description.pc /home/ecl-109/uuv_ws/devel/lib/pkgconfig/oberon4_description.pc
+/home/ecl-109/uuv_ws/devel/.private/oberon4_description/share/oberon4_description/cmake/oberon4_descriptionConfig.cmake /home/ecl-109/uuv_ws/devel/share/oberon4_description/cmake/oberon4_descriptionConfig.cmake
+/home/ecl-109/uuv_ws/devel/.private/oberon4_description/share/oberon4_description/cmake/oberon4_descriptionConfig-version.cmake /home/ecl-109/uuv_ws/devel/share/oberon4_description/cmake/oberon4_descriptionConfig-version.cmake

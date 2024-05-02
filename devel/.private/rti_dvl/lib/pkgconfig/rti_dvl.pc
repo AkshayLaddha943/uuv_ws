@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/rti_dvl
+
+Name: rti_dvl
+Description: Description of rti_dvl
+Version: 0.0.1
+Cflags: -I/home/ecl-109/uuv_ws/devel/.private/rti_dvl/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+dave/urdf/robots/glider_description
+/home/ecl-109/uuv_ws/devel/.private/glider_description/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock

@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/vectornav/share/common-lisp/ros/vectornav/msg/vectornav-msg.asd

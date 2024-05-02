@@ -1,0 +1,44 @@
+<launch>
+  <!-- Arguments for model and vehicle names, and GUI toggle -->
+  <arg name="model_name" default="rexrov"/>
+  <arg name="uuv_name" default="$(arg model_name)"/>
+  <arg name="gui_on" default="true"/>
+
+  <!-- Include the Thruster Manager -->
+  <include file="$(find uuv_thruster_manager)/launch/thruster_manager.launch">
+    <arg name="uuv_name" value="$(arg uuv_name)" />
+    <arg name="model_name" value="$(arg model_name)" />
+  </include>
+
+  <!-- Namespace grouping for the UUV -->
+  <group ns="$(arg uuv_name)">
+    <!-- Load vehicle-specific configurations -->
+    <rosparam file="$(find uuv_control_cascaded_pid)/config/$(arg model_name)/inertial.yaml" command="load"/>
+    <rosparam file="$(find uuv_control_cascaded_pid)/config/$(arg model_name)/vel_pid_control.yaml" command="load"/>
+
+    <!-- Acceleration Control Node -->
+    <node pkg="uuv_control_cascaded_pid" type="AccelerationControl.py" name="acceleration_control"
+          output="log">
+      <param name="tf_prefix" type="string" value="$(arg uuv_name)/" />
+    </node>
+
+    <!-- Velocity Control Node -->
+    <node pkg="uuv_control_cascaded_pid" type="VelocityControl.py" name="velocity_control"
+          output="log">
+      <remap from="odom" to="/$(arg uuv_name)/pose_gt"/>
+      <remap from="cmd_accel" to="/$(arg uuv_name)/cmd_accel"/>
+    </node>
+
+    <!-- Integrated Planning Control Node -->
+    <node pkg="uuv_control_cascaded_pid" type="sensor_integrated_planning_control.py" name="sensor_integrated_planning_control"
+          output="log">
+      <param name="tf_prefix" type="string" value="$(arg uuv_name)/" />
+    </node>
+  </group>
+
+   
+  <!-- Conditional group for GUI (e.g., RViz) -->
+  <group if="$(arg gui_on)">
+    <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find uuv_gazebo)/rviz/rexrov_default.rviz"/>
+  </group>
+</launch>

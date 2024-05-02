@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/install
+
+Name: waterlinked_gps
+Description: Description of waterlinked_gps
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

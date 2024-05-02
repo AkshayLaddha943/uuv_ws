@@ -1,0 +1,1396 @@
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/aliasmanager.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/aliasmanager.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/aliasmanager.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/aliasmanager.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/aliasmanager.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/aliasmanager.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/aliasmanager.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/aliasmanager.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/binary.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/binary.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/binary.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/binary.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/binary.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/binary.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/binary.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/binary.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  105 |   std::[01;35m[Kauto_ptr[m[K <EmitterState> m_pState;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:30:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   30 |  void push(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:34:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   34 |  std::[01;35m[Kauto_ptr[m[K<T> pop() {
+      |       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:[m[K In member function ‘[01m[Kstd::auto_ptr<_Up> ptr_stack<T>::pop()[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:35:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   35 |   std::[01;35m[Kauto_ptr[m[K<T> t(m_data.back());
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:[m[K At global scope:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:24:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   24 |   std::[01;35m[Kauto_ptr[m[K <SettingChangeBase> set(const T& value);
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:59:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   59 |  inline std::[01;35m[Kauto_ptr[m[K <SettingChangeBase> Setting<T>::set(const T& value) {
+      |              [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:[m[K In member function ‘[01m[Kstd::auto_ptr<YAML_PM::SettingChangeBase> YAML_PM::Setting<T>::set(const T&)[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:60:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   60 |   std::[01;35m[Kauto_ptr[m[K <SettingChangeBase> pChange(new SettingChange<T> (this));
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:[m[K At global scope:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:84:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   84 |   void push(std::[01;35m[Kauto_ptr[m[K <SettingChangeBase> pSettingChange) {
+      |                  [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitfromevents.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  105 |   std::[01;35m[Kauto_ptr[m[K <EmitterState> m_pState;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitfromevents.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:30:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   30 |  void push(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:34:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   34 |  std::[01;35m[Kauto_ptr[m[K<T> pop() {
+      |       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:[m[K In member function ‘[01m[Kstd::auto_ptr<T> ptr_stack<T>::pop()[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:35:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   35 |   std::[01;35m[Kauto_ptr[m[K<T> t(m_data.back());
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:[m[K At global scope:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:24:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   24 |   std::[01;35m[Kauto_ptr[m[K <SettingChangeBase> set(const T& value);
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:59:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   59 |  inline std::[01;35m[Kauto_ptr[m[K <SettingChangeBase> Setting<T>::set(const T& value) {
+      |              [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:[m[K In member function ‘[01m[Kstd::auto_ptr<YAML_PM::SettingChangeBase> YAML_PM::Setting<T>::set(const T&)[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:60:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   60 |   std::[01;35m[Kauto_ptr[m[K <SettingChangeBase> pChange(new SettingChange<T> (this));
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:[m[K At global scope:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/setting.h:84:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   84 |   void push(std::[01;35m[Kauto_ptr[m[K <SettingChangeBase> pSettingChange) {
+      |                  [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:[m[K In member function ‘[01m[Kvoid YAML_PM::EmitterState::BeginGroup(YAML_PM::GROUP_TYPE)[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:54:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   54 |   std::[01;35m[Kauto_ptr[m[K<Group> pGroup(new Group(type));
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:[m[K In member function ‘[01m[Kvoid YAML_PM::EmitterState::EndGroup(YAML_PM::GROUP_TYPE)[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:74:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   74 |    std::[01;35m[Kauto_ptr[m[K<Group> pFinishedGroup = m_groups.pop();
+      |         [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_stack.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/emitterstate.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:11:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   11 |  Iterator::Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData): m_pData(pData)
+      |                          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/iterator.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:4[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  105 |   std::[01;35m[Kauto_ptr[m[K <EmitterState> m_pState;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:8[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:32:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   32 |   void push_back(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.cpp:3[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.cpp:3[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:54:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   54 |  std::[01;35m[Kauto_ptr[m[K<Node> Node::Clone() const
+      |       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.cpp:3[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:[m[K In member function ‘[01m[Kstd::auto_ptr<YAML_PM::Node> YAML_PM::Node::Clone() const[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:56:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   56 |   std::[01;35m[Kauto_ptr[m[K<Node> pNode(new Node);
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.cpp:3[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodebuilder.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:[m[K In member function ‘[01m[KYAML_PM::Iterator YAML_PM::Node::begin() const[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:148:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  148 |     return Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv>(new IterPriv(m_seqData.begin())));
+      |                          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:150:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  150 |     return Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv>(new IterPriv(m_mapData.begin())));
+      |                          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:[m[K In member function ‘[01m[KYAML_PM::Iterator YAML_PM::Node::end() const[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:166:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  166 |     return Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv>(new IterPriv(m_seqData.end())));
+      |                          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:168:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  168 |     return Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv>(new IterPriv(m_mapData.end())));
+      |                          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:32:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   32 |   void push_back(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/null.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/null.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/null.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/null.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/null.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/null.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/null.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/null.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:[m[K In member function ‘[01m[KYAML_PM::Node& YAML_PM::NodeOwnership::_Create()[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:18:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   18 |   m_nodes.push_back(std::[01;35m[Kauto_ptr[m[K<Node>(new Node));
+      |                          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.h:10[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/nodeownership.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:46:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   46 |   std::[01;35m[Kauto_ptr[m[K<Scanner> m_pScanner;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:12[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:47:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   47 |   std::[01;35m[Kauto_ptr[m[K<Directives> m_pDirectives;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:12[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:4[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:12[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:4[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:12[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:4[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:12[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:4[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:12[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:7[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:32:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   32 |   void push_back(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:12[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:8[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/singledocparser.h:56:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   56 |   std::[01;35m[Kauto_ptr[m[K<CollectionStack> m_pCollectionStack;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:12[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/parser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:32:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   32 |   void push_back(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.cpp:[m[K In member function ‘[01m[Kvoid YAML_PM::Scanner::StartStream()[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.cpp:237:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  237 |   std::[01;35m[Kauto_ptr[m[K<IndentMarker> pIndent(new IndentMarker(-1, IndentMarker::NONE));
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.cpp:[m[K In member function ‘[01m[KYAML_PM::Scanner::IndentMarker* YAML_PM::Scanner::PushIndentTo(int, YAML_PM::Scanner::IndentMarker::INDENT_TYPE)[m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.cpp:284:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  284 |   std::[01;35m[Kauto_ptr[m[K<IndentMarker> pIndent(new IndentMarker(column, type));
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanscalar.cpp:2[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:32:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   32 |   void push_back(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanscalar.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scantag.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:32:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   32 |   void push_back(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scantag.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scantoken.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:32:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   32 |   void push_back(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scantoken.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/singledocparser.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/singledocparser.h:56:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   56 |   std::[01;35m[Kauto_ptr[m[K<CollectionStack> m_pCollectionStack;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/singledocparser.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/singledocparser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/simplekey.cpp:1[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:32:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   32 |   void push_back(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:11[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/simplekey.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/scanner.h:15[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/singledocparser.cpp:6[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/ptr_vector.h:32:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   32 |   void push_back(std::[01;35m[Kauto_ptr[m[K<T> t) {
+      |                       [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/singledocparser.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/src/singledocparser.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.h:183[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/SpectralDecomposition.h:38[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFiltersImpl.h:67[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:42[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:64:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   64 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:73:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   73 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:85:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   85 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:94:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   94 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:110:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  110 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:123:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  123 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:139:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  139 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:159:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  159 | #pragma omp parallel for
+      | 
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.h:183[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/SpectralDecomposition.h:38[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFiltersImpl.h:67[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:42[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:176:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  176 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:390:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  390 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:435:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  435 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:489:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  489 | #pragma omp parallel for
+      | 
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.h:183[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/SpectralDecomposition.h:38[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFiltersImpl.h:67[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registry.cpp:40[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:64:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   64 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:73:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   73 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:85:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   85 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:94:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   94 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:110:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  110 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:123:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  123 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:139:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  139 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:159:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  159 | #pragma omp parallel for
+      | 
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.h:183[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/SpectralDecomposition.h:38[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFiltersImpl.h:67[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registry.cpp:40[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:176:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  176 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:390:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  390 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:435:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  435 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:489:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  489 | #pragma omp parallel for
+      | 
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:46:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   46 |   std::[01;35m[Kauto_ptr[m[K<Scanner> m_pScanner;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:47:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   47 |   std::[01;35m[Kauto_ptr[m[K<Directives> m_pDirectives;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  105 |   std::[01;35m[Kauto_ptr[m[K <EmitterState> m_pState;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:52[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:46:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   46 |   std::[01;35m[Kauto_ptr[m[K<Scanner> m_pScanner;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:52[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:47:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   47 |   std::[01;35m[Kauto_ptr[m[K<Directives> m_pDirectives;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:52[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  105 |   std::[01;35m[Kauto_ptr[m[K <EmitterState> m_pState;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:52[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:52[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:52[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:52[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:46:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   46 |   std::[01;35m[Kauto_ptr[m[K<Scanner> m_pScanner;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:47:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   47 |   std::[01;35m[Kauto_ptr[m[K<Directives> m_pDirectives;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:9[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  105 |   std::[01;35m[Kauto_ptr[m[K <EmitterState> m_pState;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   20 |   Iterator(std::[01;35m[Kauto_ptr[m[K<IterPriv> pData);
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |   std::[01;35m[Kauto_ptr[m[K<IterPriv> m_pData;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   std::[01;35m[Kauto_ptr[m[K<Node> Clone() const;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   std::[01;35m[Kauto_ptr[m[K<NodeOwnership> m_pOwnership;
+      |        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/CovarianceSampling.cpp: In instantiation of ‘[01m[Kvoid CovarianceSamplingDataPointsFilter<T>::inPlaceFilter(CovarianceSamplingDataPointsFilter<T>::DataPoints&) [with T = float; CovarianceSamplingDataPointsFilter<T>::DataPoints = PointMatcher<float>::DataPoints][m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/CovarianceSampling.cpp:265:17:[m[K   required from here
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/CovarianceSampling.cpp:160:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KeigenVa[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  160 |  const Vector6   [01;35m[KeigenVa[m[K = solver.eigenvalues().real();
+      |                  [01;35m[K^~~~~~~[m[K
+/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/CovarianceSampling.cpp: In instantiation of ‘[01m[Kvoid CovarianceSamplingDataPointsFilter<T>::inPlaceFilter(CovarianceSamplingDataPointsFilter<T>::DataPoints&) [with T = double; CovarianceSamplingDataPointsFilter<T>::DataPoints = PointMatcher<double>::DataPoints][m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/CovarianceSampling.cpp:266:17:[m[K   required from here
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/CovarianceSampling.cpp:160:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KeigenVa[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.h:183[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Saliency.cpp:36[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:64:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   64 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:73:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   73 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:85:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   85 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:94:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   94 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:110:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  110 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:123:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  123 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:139:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  139 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:159:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  159 | #pragma omp parallel for
+      | 
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.h:183[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Saliency.cpp:36[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:176:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  176 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:390:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  390 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:435:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  435 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:489:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  489 | #pragma omp parallel for
+      | 
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.h:183[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/SpectralDecomposition.h:38[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/SpectralDecomposition.cpp:35[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:64:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   64 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:73:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   73 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:85:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   85 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:94:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+   94 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:110:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  110 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:123:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  123 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:139:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  139 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:159:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  159 | #pragma omp parallel for
+      | 
+In file included from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.h:183[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/SpectralDecomposition.h:38[m[K,
+                 from [01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/SpectralDecomposition.cpp:35[m[K:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:176:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  176 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:390:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  390 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:435:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  435 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/utils/sparsetv.hpp:489:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  489 | #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/SpectralDecomposition.cpp:145:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [[01;35m[K-Wunknown-pragmas[m[K]
+  145 |  #pragma omp parallel for
+      | 
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:[m[K In member function ‘[01m[Kvoid SphericalityDataPointsFilter<T>::inPlaceFilter(SphericalityDataPointsFilter<T>::DataPoints&) [with T = float][m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:102:24:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& structureness +56)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  102 |  boost::optional<View> [01;35m[Kstructureness[m[K;
+      |                        [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:102:24:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& structureness +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:101:24:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& unstructureness +56)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  101 |  boost::optional<View> [01;35m[Kunstructureness[m[K;      // it is intended to be uninitialized
+      |                        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:101:24:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& unstructureness +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:[m[K In member function ‘[01m[Kvoid SphericalityDataPointsFilter<T>::inPlaceFilter(SphericalityDataPointsFilter<T>::DataPoints&) [with T = double][m[K’:
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:102:24:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& structureness +56)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  102 |  boost::optional<View> [01;35m[Kstructureness[m[K;
+      |                        [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:102:24:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& structureness +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:101:24:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& unstructureness +56)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  101 |  boost::optional<View> [01;35m[Kunstructureness[m[K;      // it is intended to be uninitialized
+      |                        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ecl-109/uuv_ws/src/libpointmatcher/pointmatcher/DataPointsFilters/Sphericality.cpp:101:24:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& unstructureness +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]

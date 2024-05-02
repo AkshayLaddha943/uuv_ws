@@ -1,0 +1,6 @@
+devel_space: /home/ecl-109/uuv_ws/devel
+install: false
+install_space: /home/ecl-109/uuv_ws/install
+profile: default
+source_space: /home/ecl-109/uuv_ws/src
+workspace: /home/ecl-109/uuv_ws

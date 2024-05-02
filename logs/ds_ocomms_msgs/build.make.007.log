@@ -1,0 +1,26 @@
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_QueryCmd
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target ds_core_msgs_generate_messages_cpp
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_EmitterStatus
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_EnvStatus
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_PingCmd
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_TransferCmd
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_ModemSettings
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_ModemStatus
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_PwrCmd
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_XfrStatus
+[  0%] Built target _ds_ocomms_msgs_generate_messages_check_deps_SettingsCmd
+[  0%] Built target ds_core_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target ds_core_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target ds_core_msgs_generate_messages_eus
+[  0%] Built target ds_core_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 18%] Built target ds_ocomms_msgs_generate_messages_cpp
+[ 41%] Built target ds_ocomms_msgs_generate_messages_py
+[ 60%] Built target ds_ocomms_msgs_generate_messages_lisp
+[ 81%] Built target ds_ocomms_msgs_generate_messages_eus
+[100%] Built target ds_ocomms_msgs_generate_messages_nodejs
+[100%] Built target ds_ocomms_msgs_generate_messages

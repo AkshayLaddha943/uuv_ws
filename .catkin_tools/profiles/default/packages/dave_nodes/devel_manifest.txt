@@ -1,0 +1,14 @@
+dave/examples/dave_nodes
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/dave_nodes/cmake.lock /home/ecl-109/uuv_ws/devel/lib/dave_nodes/cmake.lock
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/dave_nodes/simple_box_motion.py /home/ecl-109/uuv_ws/devel/lib/dave_nodes/simple_box_motion.py
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/dave_nodes/teleport_vehicle.py /home/ecl-109/uuv_ws/devel/lib/dave_nodes/teleport_vehicle.py
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/dave_nodes/joy_thrusterop.py /home/ecl-109/uuv_ws/devel/lib/dave_nodes/joy_thrusterop.py
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/dave_nodes/dvl_state_and_gradient_uuvsim.py /home/ecl-109/uuv_ws/devel/lib/dave_nodes/dvl_state_and_gradient_uuvsim.py
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/dave_nodes/dvl_gradient_plot.py /home/ecl-109/uuv_ws/devel/lib/dave_nodes/dvl_gradient_plot.py
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/dave_nodes/bimanual_integrated_world.py /home/ecl-109/uuv_ws/devel/lib/dave_nodes/bimanual_integrated_world.py
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/dave_nodes/bimanual_simple_demo.py /home/ecl-109/uuv_ws/devel/lib/dave_nodes/bimanual_simple_demo.py
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/dave_nodes/dvl_state_and_gradient_dsl.py /home/ecl-109/uuv_ws/devel/lib/dave_nodes/dvl_state_and_gradient_dsl.py
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/lib/pkgconfig/dave_nodes.pc /home/ecl-109/uuv_ws/devel/lib/pkgconfig/dave_nodes.pc
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/share/dave_nodes/cmake/dave_nodesConfig.cmake /home/ecl-109/uuv_ws/devel/share/dave_nodes/cmake/dave_nodesConfig.cmake
+/home/ecl-109/uuv_ws/devel/.private/dave_nodes/share/dave_nodes/cmake/dave_nodesConfig-version.cmake /home/ecl-109/uuv_ws/devel/share/dave_nodes/cmake/dave_nodesConfig-version.cmake

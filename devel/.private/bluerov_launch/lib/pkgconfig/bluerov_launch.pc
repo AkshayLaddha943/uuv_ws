@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/bluerov_launch
+
+Name: bluerov_launch
+Description: Description of bluerov_launch
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

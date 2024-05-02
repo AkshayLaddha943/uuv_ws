@@ -1,0 +1,2 @@
+[ 33%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/uuv_world_plugins/lib/libuuv_underwater_current_plugin.so[0m
+[100%] Built target uuv_underwater_current_plugin

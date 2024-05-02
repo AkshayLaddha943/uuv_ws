@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- Copyright (c) 2016 The UUV Simulator Authors.
+     All rights reserved.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- <xacro:include filename="$(find dave)/urdf/sensors/lindar_3dad_sl3_description/urdf/sl3_lidar.xacro"/> -->
+  <xacro:include filename="$(find lidar_3dad_sl3_description)/urdf/sl3_lidar.xacro"/>
+  <xacro:include filename="$(find nps_uw_multibeam_sonar)/urdf/multibeam_sonar_blueview_p900.xacro" /> 
+
+
+  <!-- DVL  -->
+  <xacro:default_dvl_macro
+    namespace="${namespace}"
+    parent_link="${namespace}/base_link"
+    inertial_reference_frame="${inertial_reference_frame}">
+    <origin xyz="-1.4 0 -0.312" rpy="0 ${0.5*pi} 0"/>
+  </xacro:default_dvl_macro>
+
+  <!-- Magnetometer  -->
+  <xacro:default_magnetometer namespace="${namespace}" parent_link="${namespace}/base_link"/>
+
+  <!-- RPT  -->
+  <xacro:default_rpt namespace="${namespace}" parent_link="${namespace}/base_link">
+    <origin xyz="-1.32 0 0.8" rpy="0 0 0"/>
+  </xacro:default_rpt>
+
+  <!-- Pressure  -->
+  <xacro:default_pressure_macro namespace="${namespace}" parent_link="${namespace}/base_link">
+    <origin xyz="-1.32 0.5 0.85" rpy="0 0 0"/>
+  </xacro:default_pressure_macro>
+
+  <!-- IMU  -->
+  <xacro:default_imu_macro
+    namespace="${namespace}"
+    parent_link="${namespace}/base_link"
+    inertial_reference_frame="${inertial_reference_frame}">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:default_imu_macro>
+
+  <!-- Mount a camera -->
+  <xacro:default_camera namespace="${namespace}" parent_link="${namespace}/base_link" suffix="">
+    <origin xyz="1.15 0 0.4" rpy="0 0.6 0"/>
+  </xacro:default_camera>
+
+  <xacro:default_camera namespace="${namespace}" parent_link="${namespace}/base_link" suffix="right">
+    <origin xyz="1.15 -0.63 0.4" rpy="0 0.6 0.4"/>
+  </xacro:default_camera>
+
+  <xacro:default_camera namespace="${namespace}" parent_link="${namespace}/base_link" suffix="left">
+    <origin xyz="1.15 0.63 0.4" rpy="0 0.6 -0.4"/>
+  </xacro:default_camera>
+
+  <!-- Mount a GPS. -->
+  <xacro:default_gps namespace="${namespace}" parent_link="${namespace}/base_link" />
+
+   <!-- <xacro:sl3_macro namespace="${namespace}"
+                   parent_link="${namespace}/base_link"
+                   pan="0" tilt="0"
+                   inertial_reference_frame="world">
+    <origin xyz="0 0 1.5" rpy="0 0 -1.5708"/>
+  </xacro:sl3_macro> -->
+
+  <!-- Mount a Pose 3D sensor. -->
+  <xacro:default_pose_3d_macro
+    namespace="${namespace}"
+    parent_link="${namespace}/base_link"
+    inertial_reference_frame="${inertial_reference_frame}" />
+
+<!--   <xacro:sl3_macro namespace="sl3" parent_link="$(arg namespace)/base_link"
+                   inertial_reference_frame="$(arg inertial_reference_frame)"
+                   pan="0" tilt="0">
+    <origin xyz="1.05 0 0.81" rpy="0 0 ${pi/2}"/>
+  </xacro:sl3_macro> -->
+
+  <xacro:multibeam_blueview_p900_macro
+      name="${namespace}"
+      scale="1 1 1"
+      sonar_image_topic='sonar_image' 
+      debug="false"
+      gpu_ray="false"
+      robot_name="${namespace}"
+      sonar_image_raw_topic="sonar_image_raw"
+      maxDistance="10"
+      raySkips="10"
+      plotScaler="0"
+      sensorGain="0.02"
+      writeLog="false"
+      writeFrameInterval="5"
+      gaussian_noise_mean="0.0"
+      gaussian_noise_stddev="0.0"
+      fidelity="0"
+      artificialVehicleVibration="false"
+      constantReflectivity="true"
+      reflectivityDatabaseFile="your_reflectivity_database_file.csv"
+      robot_link="${namespace}/base_link"
+      ray_visual="true">
+      <origin xyz="1.35 0 0.8" rpy="0 0 0"/>
+
+    </xacro:multibeam_blueview_p900_macro>    
+</robot>

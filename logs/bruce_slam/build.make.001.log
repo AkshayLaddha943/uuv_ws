@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target pcl_module[0m
+[35m[1mScanning dependencies of target cfar_module[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/cfar_module.dir/src/bruce_slam/cpp/cfar.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcl_module.dir/src/bruce_slam/cpp/pcl.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared module /home/ecl-109/uuv_ws/devel/.private/bruce_slam/lib/python3/dist-packages/bruce_slam/cfar.cpython-38-x86_64-linux-gnu.so[0m
+[ 75%] Built target cfar_module
+[100%] [32m[1mLinking CXX shared module /home/ecl-109/uuv_ws/devel/.private/bruce_slam/lib/python3/dist-packages/bruce_slam/pcl.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target pcl_module

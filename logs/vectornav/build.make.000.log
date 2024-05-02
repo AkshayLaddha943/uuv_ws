@@ -1,0 +1,61 @@
+[35m[1mScanning dependencies of target _vectornav_generate_messages_check_deps_Ins[0m
+[  0%] Built target _vectornav_generate_messages_check_deps_Ins
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target libvncxx[0m
+[  3%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/attitude.cpp.o[0m
+[  6%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/compositedata.cpp.o[0m
+[  9%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/conversions.cpp.o[0m
+[ 12%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/criticalsection.cpp.o[0m
+[ 15%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/dllvalidator.cpp.o[0m
+[ 18%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/error_detection.cpp.o[0m
+[ 21%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/event.cpp.o[0m
+[ 24%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/ezasyncdata.cpp.o[0m
+[ 27%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/memoryport.cpp.o[0m
+[ 30%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/packet.cpp.o[0m
+[ 33%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/packetfinder.cpp.o[0m
+[ 36%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/port.cpp.o[0m
+[ 39%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/position.cpp.o[0m
+[ 42%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/rtcmlistener.cpp.o[0m
+[ 45%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/rtcmmessage.cpp.o[0m
+[ 48%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/searcher.cpp.o[0m
+[ 51%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/sensors.cpp.o[0m
+[ 54%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/serialport.cpp.o[0m
+[ 57%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/thread.cpp.o[0m
+[ 60%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/types.cpp.o[0m
+[ 63%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/util.cpp.o[0m
+[ 66%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/utilities.cpp.o[0m
+[ 69%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/libvncxx.dir/src/vntime.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library /home/ecl-109/uuv_ws/devel/.private/vectornav/lib/liblibvncxx.so[0m
+[ 72%] Built target libvncxx
+[35m[1mScanning dependencies of target vectornav_generate_messages_lisp[0m
+[ 75%] [34m[1mGenerating Lisp code from vectornav/Ins.msg[0m
+[ 75%] Built target vectornav_generate_messages_lisp
+[35m[1mScanning dependencies of target vectornav_generate_messages_py[0m
+[ 78%] [34m[1mGenerating Python from MSG vectornav/Ins[0m
+[ 81%] [34m[1mGenerating Python msg __init__.py for vectornav[0m
+[ 81%] Built target vectornav_generate_messages_py
+[35m[1mScanning dependencies of target vectornav_generate_messages_cpp[0m
+[ 84%] [34m[1mGenerating C++ code from vectornav/Ins.msg[0m
+[ 84%] Built target vectornav_generate_messages_cpp
+[35m[1mScanning dependencies of target vectornav_generate_messages_eus[0m
+[ 87%] [34m[1mGenerating EusLisp code from vectornav/Ins.msg[0m
+[ 90%] [34m[1mGenerating EusLisp manifest code for vectornav[0m
+[ 90%] Built target vectornav_generate_messages_eus
+[35m[1mScanning dependencies of target vectornav_generate_messages_nodejs[0m
+[ 93%] [34m[1mGenerating Javascript code from vectornav/Ins.msg[0m
+[ 93%] Built target vectornav_generate_messages_nodejs
+[35m[1mScanning dependencies of target vectornav_generate_messages[0m
+[ 93%] Built target vectornav_generate_messages
+[35m[1mScanning dependencies of target vnpub[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/vnpub.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ecl-109/uuv_ws/devel/.private/vectornav/lib/vectornav/vnpub[0m
+[100%] Built target vnpub

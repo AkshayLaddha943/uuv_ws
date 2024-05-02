@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/bruce_msgs/share/roseus/ros/bruce_msgs/manifest.l

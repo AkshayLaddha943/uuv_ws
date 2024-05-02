@@ -1,0 +1,28 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[31m[1mCMake Error[0m at /home/ecl-109/uuv_ws/src/sonar-SLAM/bruce_slam/CMakeLists.txt:63 (target_link_libraries):
+  The keyword signature for target_link_libraries has already been used with
+  the target "pcl".  All uses of target_link_libraries with a target must be
+  either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * /opt/ros/noetic/share/pybind11_catkin/cmake/pybind11Tools.cmake:179 (target_link_libraries)
+   * /opt/ros/noetic/share/pybind11_catkin/cmake/pybind11Tools.cmake:211 (target_link_libraries)
+
+
+
+[31m[1mCMake Error[0m at /home/ecl-109/uuv_ws/src/sonar-SLAM/bruce_slam/CMakeLists.txt:70 (target_link_libraries):
+  The keyword signature for target_link_libraries has already been used with
+  the target "cfar".  All uses of target_link_libraries with a target must be
+  either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * /opt/ros/noetic/share/pybind11_catkin/cmake/pybind11Tools.cmake:179 (target_link_libraries)
+   * /opt/ros/noetic/share/pybind11_catkin/cmake/pybind11Tools.cmake:211 (target_link_libraries)
+
+
+
+make: *** [Makefile:1052: cmake_check_build_system] Error 1

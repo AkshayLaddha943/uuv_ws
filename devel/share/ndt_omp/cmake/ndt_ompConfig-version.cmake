@@ -1,0 +1,1 @@
+/home/ecl-109/uuv_ws/devel/.private/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig-version.cmake

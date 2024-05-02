@@ -1,0 +1,5 @@
+dave/urdf/manipulators/dave_oberon7_description
+/home/ecl-109/uuv_ws/devel/.private/dave_oberon7_description/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock
+/home/ecl-109/uuv_ws/devel/.private/dave_oberon7_description/lib/pkgconfig/dave_oberon7_description.pc /home/ecl-109/uuv_ws/devel/lib/pkgconfig/dave_oberon7_description.pc
+/home/ecl-109/uuv_ws/devel/.private/dave_oberon7_description/share/dave_oberon7_description/cmake/dave_oberon7_descriptionConfig-version.cmake /home/ecl-109/uuv_ws/devel/share/dave_oberon7_description/cmake/dave_oberon7_descriptionConfig-version.cmake
+/home/ecl-109/uuv_ws/devel/.private/dave_oberon7_description/share/dave_oberon7_description/cmake/dave_oberon7_descriptionConfig.cmake /home/ecl-109/uuv_ws/devel/share/dave_oberon7_description/cmake/dave_oberon7_descriptionConfig.cmake

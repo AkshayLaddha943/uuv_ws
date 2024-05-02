@@ -1,0 +1,35 @@
+[ 25%] Built target yaml-cpp-pm
+[ 83%] Built target pointmatcher
+[ 85%] Built target gtest
+[ 87%] Built target pmicp
+[ 88%] Built target icp_simple
+[ 90%] Built target list_modules
+[ 92%] Built target icp_customized
+[ 94%] Built target build_map
+[ 96%] Built target compute_overlap
+[ 97%] Built target align_sequence
+[100%] Built target icp_advance_api
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ecl-109/uuv_ws/devel/include/pointmatcher/DeprecationWarnings.h
+-- Installing: /home/ecl-109/uuv_ws/devel/include/pointmatcher/PointMatcher.h
+-- Installing: /home/ecl-109/uuv_ws/devel/include/pointmatcher/PointMatcherPrivate.h
+-- Installing: /home/ecl-109/uuv_ws/devel/include/pointmatcher/Parametrizable.h
+-- Installing: /home/ecl-109/uuv_ws/devel/include/pointmatcher/Registrar.h
+-- Installing: /home/ecl-109/uuv_ws/devel/include/pointmatcher/Timer.h
+-- Installing: /home/ecl-109/uuv_ws/devel/include/pointmatcher/Functions.h
+-- Installing: /home/ecl-109/uuv_ws/devel/include/pointmatcher/IO.h
+-- Installing: /home/ecl-109/uuv_ws/devel/lib/libpointmatcher.a
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/package.xml
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/libpointmatcher-config.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/libpointmatcher-config-release.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/lib/cmake/pointmatcher/libpointmatcherConfig.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/lib/cmake/pointmatcher/libpointmatcherConfigVersion.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/libpointmatcherConfig.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/libpointmatcherConfigVersion.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/lib/pkgconfig/libpointmatcher.pc
+-- Installing: /home/ecl-109/uuv_ws/devel/lib/pkgconfig/pointmatcher.pc
+-- Installing: /home/ecl-109/uuv_ws/devel/lib/libyaml-cpp-pm.a
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/yaml-cpp-pm-targets.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/share/libpointmatcher/cmake/yaml-cpp-pm-targets-release.cmake
+-- Installing: /home/ecl-109/uuv_ws/devel/bin/pmicp

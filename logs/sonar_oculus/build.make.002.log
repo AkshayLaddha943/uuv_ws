@@ -1,0 +1,16 @@
+[  4%] Built target sonar_oculus_gencfg
+[  4%] Built target sensor_msgs_generate_messages_cpp
+[  4%] Built target _sonar_oculus_generate_messages_check_deps_OculusPingUncompressed
+[  4%] Built target _sonar_oculus_generate_messages_check_deps_OculusFire
+[  4%] Built target _sonar_oculus_generate_messages_check_deps_OculusPing
+[  4%] Built target sensor_msgs_generate_messages_lisp
+[  4%] Built target sensor_msgs_generate_messages_eus
+[  4%] Built target sensor_msgs_generate_messages_nodejs
+[  4%] Built target sensor_msgs_generate_messages_py
+[ 33%] Built target sonar_oculus_generate_messages_cpp
+[ 33%] Built target sonar_oculus_generate_messages_lisp
+[ 47%] Built target sonar_oculus_generate_messages_nodejs
+[ 85%] Built target sonar_oculus_generate_messages_eus
+[ 85%] Built target sonar_oculus_generate_messages_py
+[100%] Built target sonar_oculus_node
+[100%] Built target sonar_oculus_generate_messages

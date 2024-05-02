@@ -1,0 +1,104 @@
+CMake Warning (dev) at CMakeLists.txt:2 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[33m[1mCMake Warning[0m at /home/ecl-109/uuv_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeLists.txt:77 (add_library):
+  Cannot generate a safe runtime search path for target
+  custom_battery_consumer_ros_plugin because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/ecl-109/uuv_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeLists.txt:69 (add_library):
+  Cannot generate a safe runtime search path for target
+  uuv_accelerations_test_plugin because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/ecl-109/uuv_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeLists.txt:60 (add_library):
+  Cannot generate a safe runtime search path for target
+  uuv_underwater_object_ros_plugin because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/ecl-109/uuv_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeLists.txt:65 (add_library):
+  Cannot generate a safe runtime search path for target
+  uuv_joint_state_publisher because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/ecl-109/uuv_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeLists.txt:73 (add_library):
+  Cannot generate a safe runtime search path for target
+  linear_battery_ros_plugin because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/ecl-109/uuv_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeLists.txt:55 (add_library):
+  Cannot generate a safe runtime search path for target
+  uuv_thruster_ros_plugin because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/ecl-109/uuv_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeLists.txt:50 (add_library):
+  Cannot generate a safe runtime search path for target uuv_fin_ros_plugin
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/noetic/lib
+
+  Some of these libraries may not be found correctly.
+
+

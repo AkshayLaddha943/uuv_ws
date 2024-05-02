@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/lidar_3dad_sl3_description
+
+Name: lidar_3dad_sl3_description
+Description: Description of lidar_3dad_sl3_description
+Version: 3.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

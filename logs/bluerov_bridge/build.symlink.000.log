@@ -1,0 +1,4 @@
+Symlinking /home/ecl-109/uuv_ws/devel/lib/python3/dist-packages/bluerov_bridge/__init__.py
+Symlinking /home/ecl-109/uuv_ws/devel/lib/pkgconfig/bluerov_bridge.pc
+Symlinking /home/ecl-109/uuv_ws/devel/share/bluerov_bridge/cmake/bluerov_bridgeConfig-version.cmake
+Symlinking /home/ecl-109/uuv_ws/devel/share/bluerov_bridge/cmake/bluerov_bridgeConfig.cmake

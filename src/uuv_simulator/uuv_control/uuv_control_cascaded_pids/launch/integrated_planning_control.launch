@@ -1,0 +1,39 @@
+<launch>
+  <!-- Custom control law node -->
+  <arg name="model_name" />
+  <arg name="uuv_name" default="$(arg model_name)"/>
+  <arg name="gui_on" default="true"/>
+
+  <include file="$(find uuv_thruster_manager)/launch/thruster_manager.launch">
+    <arg name="uuv_name" value="$(arg uuv_name)" />
+    <arg name="model_name" value="$(arg model_name)" />
+  </include>
+
+  <group ns="$(arg uuv_name)">
+    <rosparam file="$(find uuv_control_cascaded_pid)/config/$(arg model_name)/inertial.yaml" command="load"/>
+    <rosparam file="$(find uuv_control_cascaded_pid)/config/$(arg model_name)/vel_pid_control.yaml" command="load"/>
+
+    <node pkg="uuv_control_cascaded_pid" type="AccelerationControl.py" name="acceleration_control"
+          output="log">
+      <param name="tf_prefix" type="string" value="$(arg uuv_name)/" />
+    </node>
+
+    <node pkg="uuv_control_cascaded_pid" type="VelocityControl.py" name="velocity_control"
+        output="log">
+      <remap from="odom" to="/$(arg uuv_name)/pose_gt"/>
+      <remap from="cmd_accel" to="/$(arg uuv_name)/cmd_accel"/>
+    </node>
+
+    <node pkg="uuv_control_cascaded_pid" type="integrated_planning_control.py" name="integrated_planning_control"
+          output="log">
+      <param name="tf_prefix" type="string" value="$(arg uuv_name)/" />
+    </node>
+  </group>
+
+
+    <group if="$(arg gui_on)">
+        <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find uuv_gazebo)/rviz/rexrov_default.rviz"/>
+    </group>
+</launch>
+
+  

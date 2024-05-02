@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/bruce_msgs
+
+Name: bruce_msgs
+Description: Description of bruce_msgs
+Version: 0.0.1
+Cflags: -I/home/ecl-109/uuv_ws/devel/.private/bruce_msgs/include -I/home/ecl-109/uuv_ws/src/sonar-SLAM/bruce_msgs/include
+Libs: -L${prefix}/lib -lconversions
+Requires: message_runtime geometry_msgs nav_msgs sensor_msgs

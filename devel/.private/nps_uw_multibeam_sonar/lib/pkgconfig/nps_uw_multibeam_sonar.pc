@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/nps_uw_multibeam_sonar
+
+Name: nps_uw_multibeam_sonar
+Description: Description of nps_uw_multibeam_sonar
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: marine_acoustic_msgs

@@ -1,0 +1,5 @@
+dave/urdf/manipulators/predator_control
+/home/ecl-109/uuv_ws/devel/.private/predator_control/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock
+/home/ecl-109/uuv_ws/devel/.private/predator_control/lib/pkgconfig/predator_control.pc /home/ecl-109/uuv_ws/devel/lib/pkgconfig/predator_control.pc
+/home/ecl-109/uuv_ws/devel/.private/predator_control/share/predator_control/cmake/predator_controlConfig-version.cmake /home/ecl-109/uuv_ws/devel/share/predator_control/cmake/predator_controlConfig-version.cmake
+/home/ecl-109/uuv_ws/devel/.private/predator_control/share/predator_control/cmake/predator_controlConfig.cmake /home/ecl-109/uuv_ws/devel/share/predator_control/cmake/predator_controlConfig.cmake

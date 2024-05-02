@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/XR.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/XrSimState.msg;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg"
+services_str = "/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/srv/AbortCmd.srv;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/srv/BatteryCmd.srv;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/srv/PowerCmd.srv;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/srv/PowerSupplyCommand.srv;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/srv/PwrSwitchCmd.srv;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/srv/ChargeCmd.srv;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/srv/ClioChgCmd.srv;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv"
+pkg_name = "ds_hotel_msgs"
+dependencies_str = "std_msgs;ds_core_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "ds_hotel_msgs;/home/ecl-109/uuv_ws/src/ds_msgs/ds_hotel_msgs/msg;std_msgs;/opt/ros/noetic/share/std_msgs/cmake/../msg;ds_core_msgs;/home/ecl-109/uuv_ws/src/ds_msgs/ds_core_msgs/msg"
+PYTHON_EXECUTABLE = "/usr/bin/python3"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

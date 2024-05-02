@@ -1,0 +1,2 @@
+uuv_manipulators/oberon7/oberon7
+/home/ecl-109/uuv_ws/devel/.private/oberon7/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock

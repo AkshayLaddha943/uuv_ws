@@ -1,0 +1,2 @@
+dave/legacy/robots/smilodon_gazebo
+/home/ecl-109/uuv_ws/devel/.private/smilodon_gazebo/cmake.lock /home/ecl-109/uuv_ws/devel/./cmake.lock

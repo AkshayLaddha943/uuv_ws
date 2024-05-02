@@ -1,0 +1,8 @@
+prefix=/home/ecl-109/uuv_ws/devel/.private/eca_a9_description
+
+Name: eca_a9_description
+Description: Description of eca_a9_description
+Version: 0.1.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
