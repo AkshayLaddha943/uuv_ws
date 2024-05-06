@@ -13,8 +13,8 @@ This project contains ROS packages for development, simulation and testing of:
 - Wrote launch files to test each trajectory tracking controller available in the uuv_simulator repository (originally configured for the rexrov model) on the eca_a9 model.
 - A comparative evaluation was conducted between a non-model based sliding mode controller  [García-Valdovinos el al., 2014](https://journals.sagepub.com/doi/full/10.5772/56810), [Salgado-Jiménez et al., 2011](https://cdn.intechopen.com/pdfs/15221.pdf) and a PD geometric tracking controller. Both controllers were employed to track predefined 3D trajectories in Gazebo, and their respective performances were subsequently evaluated.
 - Conducted a comprehensive literature Review on underwater path planning, trajectory tracking, and mapping methodologies.
-- 
-  ### Tasks:
+  
+### Tasks:
 
   - **Task #1**: Create a local octomap of the environment using FLS data.
   - **Task #2**: Use octomap to develop a collision avoidance algorithm for the eca_a9 vehicle. Identified algorithms include:
