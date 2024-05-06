@@ -16,7 +16,7 @@
 This project contains ROS packages for development, simulation and testing of:
 
 - 3D Navigation (motion control + mapping) of the eca_a9 autonomous underwater vehicle (AUV.)
-- A novel 'integrated planning and control (IPC) strategy' developed by [Veejay Karthik](https://github.com/uuvsimulator/uuv_simulator) for 3D underwater navigation in unknown, cluttered environments using the rexrov model.
+- A novel 'integrated planning and control (IPC) strategy' developed by [Veejay Karthik](https://github.com/uuvsimulator/uuv_simulator) applied to 3D underwater navigation in unknown, cluttered environments using the rexrov model.
 
 ## 3D Navigation of eca_a9 AUV:
 ### Current Status of Project:
