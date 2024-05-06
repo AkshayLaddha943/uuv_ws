@@ -13,11 +13,10 @@ This project contains ROS packages for development, simulation and testing of:
   - Conducted a comprehensive literature Review on underwater path planning, trajectory tracking, and mapping methodologies.
     
   ### Tasks:
-
-    - **Task #1**: Create a local octomap of the environment using FLS data.
-    - **Task #2**: Use octomap to develop a collision avoidance algorithm for the eca_a9 vehicle. Identified algorithms include:
-      1. [Tangent Bug Algorithm](https://maegantucker.com/projects/2018-04-01-me133b/)
-      2. 3DVFH+ [Venneste et. al](https://ceur-ws.org/Vol-1319/morse14_paper_08.pdf) 
+  - **Task #1**: Create a local octomap of the environment using FLS data.
+  - **Task #2**: Use octomap to develop a collision avoidance algorithm for the eca_a9 vehicle. Identified algorithms include:
+    1. [Tangent Bug Algorithm](https://maegantucker.com/projects/2018-04-01-me133b/)
+    2. 3DVFH+ [Venneste et. al](https://ceur-ws.org/Vol-1319/morse14_paper_08.pdf) 
 
   ### Issues:
 
