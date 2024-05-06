@@ -19,35 +19,32 @@ This project contains ROS packages for development, simulation and testing of:
     2. 3DVFH+ [Venneste et. al](https://ceur-ws.org/Vol-1319/morse14_paper_08.pdf) 
 
   ### Issues:
-
-    - **Issue #1:** The resulting point cloud from the sonar plug-in does not result in an accurate 3D reconstruction of the world.
-      - **Potential Fixes**:
-        1. **Fixing Transformation Inconsistencies**
+  - **Issue #1:** The resulting point cloud from the sonar plug-in does not result in an accurate 3D reconstruction of the world.
+    - **Potential Fixes**:
+      1. **Fixing Transformation Inconsistencies**
            - Inspect the transformation parameters used in the processing of the point cloud data as well as sonar configuration to ensure accurate spatial representation.
-        2. **Review Sonar Documentation**
+      2. **Review Sonar Documentation**
            - Investigate how the point cloud is being processed. Determine if the point cloud is intended solely for creating a sonar image and not for 3D reconstruction. Assess whether the raw sonar data can be utilized to create accurate 3D point clouds.
     
-    - **Issue #2:** The [multibeam sonar parameters](https://field-robotics-lab.github.io/dave.doc/contents/dave_sensors/Multibeam-Forward-Looking-Sonar/#parameters) have a specified VFOV of 20 degrees and a range of 10-60m. Desired specs require a 30 degree VFOV and a range of 200m.   
+  - **Issue #2:** The [multibeam sonar parameters](https://field-robotics-lab.github.io/dave.doc/contents/dave_sensors/Multibeam-Forward-Looking-Sonar/#parameters) have a specified VFOV of 20 degrees and a range of 10-60m. Desired specs                    require a 30 degree VFOV and a range of 200m.   
       - **Potential Fixes**:
         - Study the plug-in source code to assess the feasability of modifying sonar parameters. 
         - Investigate other plugins that meet the desired specifications.
         - Write a new custom gazebo sonar plug-in.    
 
 ##Integrated Planning and Control:
-  ### Progress:
-  
-    - Extended the 2D integrated planning and control algorithm to 3D and validated the controller using the rexrov model in Gazebo.
-    
+  ### Progress:  
+  - Extended the 2D integrated planning and control algorithm to 3D and validated the controller using the rexrov model in Gazebo.    
   ### Tasks:
-    - **Task #1:** Incorporate sensor feedback into IPC.
-    - **Task #2:** Generate synthetic 3D point cloud data in MATLAB/Python and run the decision sphere algorithm.
+  - **Task #1:** Incorporate sensor feedback into IPC.
+  - **Task #2:** Generate synthetic 3D point cloud data in MATLAB/Python and run the decision sphere algorithm.
 
   ### Issues:
   
-    - **Issue #3:** Point cloud processing node for IPC currently finds a decision sphere along one axis (x axis) only.
-      - **Potential Fixes**:
-        - Revisit the math to identify potential tweaks in the parameterized equation of the decision sphere and/or the need for transformations to search along other axes.
-        - Generate synthetic point cloud data in Python/MATLAB for improved debugging.
+  - **Issue #3:** Point cloud processing node for IPC currently finds a decision sphere along one axis (x axis) only.
+    - **Potential Fixes**:
+      - Revisit the math to identify potential tweaks in the parameterized equation of the decision sphere and/or the need for transformations to search along other axes.
+      - Generate synthetic point cloud data in Python/MATLAB for improved debugging.
         
  ## Some Useful Links:
 
