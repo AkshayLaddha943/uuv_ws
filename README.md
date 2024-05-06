@@ -39,9 +39,9 @@ This project contains ROS packages for development, simulation and testing of:
   ### Issues:
   
   - **Issue #3:** Point cloud processing node for IPC currently finds a decision sphere along one axis (x axis) only.
-    - **Potential Fixes**:
-      1. Revisit the math to identify potential tweaks in the parameterized equation of the decision sphere and/or the need for transformations to search along other axes.
-      2. Generate synthetic point cloud data in Python/MATLAB for improved debugging.
+  - **Potential Fixes**:
+    1. Revisit the math to identify potential tweaks in the parameterized equation of the decision sphere and/or the need for transformations to search along other axes.
+    2. Generate synthetic point cloud data in Python/MATLAB for improved debugging.
         
  ## Some Useful Links:
 
