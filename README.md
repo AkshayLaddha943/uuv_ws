@@ -1,9 +1,8 @@
 ## Purpose of this project:
 
 This project contains ROS packages for development, simulation and testing of:
-
-- 3D Navigation (motion control + mapping) of the eca_a9 autonomous underwater vehicle (AUV.)
-- A novel 'integrated planning and control (IPC) strategy' developed by [Veejay Karthik](https://github.com/uuvsimulator/uuv_simulator) applied to 3D underwater navigation in unknown, cluttered environments using the rexrov model.
+  - 3D Navigation (motion control + mapping) of the eca_a9 autonomous underwater vehicle (AUV.)
+  - A novel 'integrated planning and control (IPC) strategy' developed by [Veejay Karthik](https://github.com/uuvsimulator/uuv_simulator) applied to 3D underwater navigation in unknown, cluttered environments using the rexrov model.
 
 ## 3D Navigation of eca_a9 AUV:
   ### Progress:
@@ -13,7 +12,7 @@ This project contains ROS packages for development, simulation and testing of:
     - Wrote launch files to test each trajectory tracking controller available in the uuv_simulator repository (originally configured for the rexrov model) on the eca_a9 model.
     - A comparative evaluation was conducted between a non-model based sliding mode controller  [García-Valdovinos el al., 2014](https://journals.sagepub.com/doi/full/10.5772/56810), [Salgado-Jiménez et al., 2011](https://cdn.intechopen.com/pdfs/15221.pdf) and a PD geometric tracking controller. Both controllers were employed to track predefined 3D trajectories in Gazebo, and their respective performances were subsequently evaluated.
     - Conducted a comprehensive literature Review on underwater path planning, trajectory tracking, and mapping methodologies.
-  
+    
   ### Tasks:
 
     - **Task #1**: Create a local octomap of the environment using FLS data.
@@ -46,12 +45,12 @@ This project contains ROS packages for development, simulation and testing of:
     - **Task #2:** Generate synthetic 3D point cloud data in MATLAB/Python and run the decision sphere algorithm.
 
   ### Issues:
+  
     - **Issue #3:** Point cloud processing node for IPC currently finds a decision sphere along one axis (x axis) only.
       - **Potential Fixes**:
         - Revisit the math to identify potential tweaks in the parameterized equation of the decision sphere and/or the need for transformations to search along other axes.
         - Generate synthetic point cloud data in Python/MATLAB for improved debugging.
-     
-
+        
  ## Some Useful Links:
 
 - [uuv_simulator repository](https://github.com/uuvsimulator/uuv_simulator)
@@ -64,18 +63,3 @@ This project contains ROS packages for development, simulation and testing of:
 - [Octomap: An Efficient Probabilistic 3D Mapping Framework Based on Octrees](https://octomap.github.io/)
 - [integrated planning and control](https://www.veejaykarthik.com/research-work)
 - [Tangent Bug Algorithm](https://maegantucker.com/projects/2018-04-01-me133b/)
-   
-
-
-
-
-  
-  - 
-
-
-
-
-
-
-
-
