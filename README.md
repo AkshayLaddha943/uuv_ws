@@ -21,16 +21,15 @@ This project contains ROS packages for development, simulation and testing of:
   ### Issues:
   - **Issue #1:** The resulting point cloud from the sonar plug-in does not result in an accurate 3D reconstruction of the world.
     - **Potential Fixes**:
-      1. **Fixing Transformation Inconsistencies**
-           - Inspect the transformation parameters used in the processing of the point cloud data as well as sonar configuration to ensure accurate spatial representation.
-      2. **Review Sonar Documentation**
-           - Investigate how the point cloud is being processed. Determine if the point cloud is intended solely for creating a sonar image and not for 3D reconstruction. Assess whether the raw sonar data can be utilized to create accurate 3D point clouds.
+        1. Inspect the transformation parameters used in the processing of the point cloud data as well as sonar configuration to ensure accurate spatial representation.
+        2. Investigate how the point cloud is being processed. Determine if the point cloud is intended solely for creating a sonar image and not for 3D reconstruction. Assess whether the raw sonar data can be utilized to create accurate            3D point clouds.
+           - 
     
   - **Issue #2:** The [multibeam sonar parameters](https://field-robotics-lab.github.io/dave.doc/contents/dave_sensors/Multibeam-Forward-Looking-Sonar/#parameters) have a specified VFOV of 20 degrees and a range of 10-60m. Desired specs                    require a 30 degree VFOV and a range of 200m.   
       - **Potential Fixes**:
-        - Study the plug-in source code to assess the feasability of modifying sonar parameters. 
-        - Investigate other plugins that meet the desired specifications.
-        - Write a new custom gazebo sonar plug-in.    
+        1. Study the plug-in source code to assess the feasability of modifying sonar parameters. 
+        2. Investigate other plugins that meet the desired specifications.
+        3. Write a new custom gazebo sonar plug-in.    
 
 ## Integrated Planning and Control:
   ### Progress:  
@@ -43,8 +42,8 @@ This project contains ROS packages for development, simulation and testing of:
   
   - **Issue #3:** Point cloud processing node for IPC currently finds a decision sphere along one axis (x axis) only.
     - **Potential Fixes**:
-      - Revisit the math to identify potential tweaks in the parameterized equation of the decision sphere and/or the need for transformations to search along other axes.
-      - Generate synthetic point cloud data in Python/MATLAB for improved debugging.
+      1. Revisit the math to identify potential tweaks in the parameterized equation of the decision sphere and/or the need for transformations to search along other axes.
+      2. Generate synthetic point cloud data in Python/MATLAB for improved debugging.
         
  ## Some Useful Links:
 
