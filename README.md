@@ -29,14 +29,15 @@ This project contains ROS packages for development, simulation and testing of:
 
 ### TODO:
 
-- **Issue**: The resulting point cloud from the sonar plug-in does not result in an accurate 3D reconstruction of the world.
+- **Issue #1**: The resulting point cloud from the sonar plug-in does not result in an accurate 3D reconstruction of the world.
   - **Potential Fixes**:
     1. **Fixing Transformation incoherencies**
        - Inspect the transformation parameters used in the processing of the point cloud data as well as sonar configuration to ensure accurate spatial representation.
     2. **Review Sonar Documentation**
        - How is the point cloud being processed? Is the point cloud being used solely to create a sonar image and is not meant to be used for a 3D reconstrucion of the world? Can the raw sonar data be used to create accurate 3D point clouds?
 
-- **Task**: 
+- **Issue #2**: The [multibeam sonar specificiations](https://field-robotics-lab.github.io/dave.doc/contents/dave_sensors/Multibeam-Forward-Looking-Sonar/#parameters) do not meet the project requirements.
+  - 
 
 
 
