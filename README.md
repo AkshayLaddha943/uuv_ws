@@ -32,7 +32,7 @@ This project contains ROS packages for development, simulation and testing of:
         - Investigate other plugins that meet the desired specifications.
         - Write a new custom gazebo sonar plug-in.    
 
-##Integrated Planning and Control:
+## Integrated Planning and Control:
   ### Progress:  
   - Extended the 2D integrated planning and control algorithm to 3D and validated the controller using the rexrov model in Gazebo.    
   ### Tasks:
