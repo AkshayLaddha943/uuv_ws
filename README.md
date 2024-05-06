@@ -16,5 +16,11 @@
 This project contains ROS packages for development, simulation and testing of:
 
 - 3D Navigation (motion control + mapping) of the eca_a9 autonomous underwater vehicle (AUV.)
-- A novel 'integrated planning and control (IPC) strategy' developed by [Veejay Karthik](https://github.com/uuvsimulator/uuv_simulator) for 3D underwater navigation in using the rexrov model.
+- A novel 'integrated planning and control (IPC) strategy' developed by [Veejay Karthik](https://github.com/uuvsimulator/uuv_simulator) for 3D underwater navigation in unknown, cluttered environments using the rexrov model.
+
+## 3D Navigation of eca_a9 AUV:
+### Current Status of Project:
+
+- Incorporated 3D trajectories (helical, lissajou curves, figure of 8) into the 'idle mode' of the base dynamic positioning controller.
+- Mounted a [forward looking sonar](https://field-robotics-lab.github.io/dave.doc/contents/dave_sensors/Multibeam-Forward-Looking-Sonar/) (FLS) on the eca_a9 vehicle by integrating the [sonar macro]((https://github.com/Field-Robotics-Lab/nps_uw_multibeam_sonar/tree/main/urdf)) with the vehicle [URDF](url(https://github.com/uuvsimulator/eca_a9/tree/master/eca_a9_description/urdf))
 
