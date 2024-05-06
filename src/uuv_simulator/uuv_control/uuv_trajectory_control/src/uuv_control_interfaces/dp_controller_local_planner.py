@@ -1065,7 +1065,7 @@ class DPControllerLocalPlanner(object):
             wp_set.add_waypoint(wp)
         return wp_set
 
-    def get_idle_helical_path(self, n_points=150, radius=30, z_step=0.1, N=3):  
+    def get_idle_helical_path(self, n_points=150, radius=30, z_step=0.1, N=5):  
         pose = deepcopy(self._vehicle_pose)
         if self._idle_circle_center is None:
             frame = np.array([

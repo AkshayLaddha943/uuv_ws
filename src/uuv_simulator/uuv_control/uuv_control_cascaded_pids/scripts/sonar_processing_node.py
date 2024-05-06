@@ -11,7 +11,6 @@ def calculate_Rmax(Ls_function, max_sonar_range=5.0): #TODO:Try replacing max_so
 
     angles = np.array(list(Ls_function.keys()))
     R_values = np.array(list(Ls_function.values()))
-
    
     R_values = np.nan_to_num(R_values, nan=max_sonar_range)
 
@@ -19,10 +18,9 @@ def calculate_Rmax(Ls_function, max_sonar_range=5.0): #TODO:Try replacing max_so
     R_calculated = R_values / (2 * np.cos(angles[:, 1]) * np.sin(angles[:, 0])) #TODO:angles (directions in which we are looking at centres) to be subtracted by <parameter>
     R_calculated = np.clip(R_calculated, 0, max_sonar_range)
 
-    # Replace any NaNs in R_calculated with max lidar range
     R_calculated = np.nan_to_num(R_calculated, nan=max_sonar_range)
 
-    # Find the minimum R
+   
     Rmax = np.nanmin(R_calculated) if np.any(np.isfinite(R_calculated)) else max_sonar_range
 
     return Rmax, angles, R_calculated

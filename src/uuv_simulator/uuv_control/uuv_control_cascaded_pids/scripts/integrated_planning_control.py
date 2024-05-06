@@ -82,9 +82,9 @@ class IntegratedPlanningControl:
             self.r_i = rotation_matrix[:, 0]  
         except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
             rospy.loginfo("TF exception")
-        self.R = np.array([msg.pose.pose.position.x, msg.pose.pose.position.y, msg.pose.pose.position.z])
+        self.R = np.array([msg.pose.pose.position.x, msg.pose.pose.position.y, msg.pose.pose.position.z]) 
 
-        norm_R = np.linalg.norm(self.R)
+        norm_R = np.linalg.norm(self.R) 
         S = np.dot(self.R / norm_R, self.r_i) + 1 
         u = -self.K_1 * np.tanh(norm_R) * np.sign(np.dot(self.R, self.r_i))
                                                                                                                                     
@@ -123,10 +123,10 @@ class IntegratedPlanningControl:
         marker.action = marker.ADD
         marker.ns = ns
         marker.id = 0
-        marker.scale.x = 0.1  # Shaft diameter
-        marker.scale.y = 0.2  # Head diameter
-        marker.scale.z = 0.3  # Head length
-        marker.color.a = 1.0  # Don't forget to set the alpha!
+        marker.scale.x = 0.1  
+        marker.scale.y = 0.2  
+        marker.scale.z = 0.3  
+        marker.color.a = 1.0  
         marker.color.r = color[0]
         marker.color.g = color[1]
         marker.color.b = color[2]

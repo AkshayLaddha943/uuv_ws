@@ -138,7 +138,7 @@
       <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:default_chemical_concentration_sensor>
 
-    <!--multibeam_blueview_p900_raster -->
+    <!--multibeam_blueview_p900_raster (working)-->
      <xacro:multibeam_blueview_p900_macro
       name="${namespace}"
       scale="1 1 1"
@@ -151,7 +151,7 @@
       raySkips="10"
       plotScaler="0"
       sensorGain="0.02"
-      writeLog="false"
+      writeLog="false" 
       writeFrameInterval="5"
       gaussian_noise_mean="0.0"
       gaussian_noise_stddev="0.0"

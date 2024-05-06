@@ -187,7 +187,8 @@ void NpsGazeboRosMultibeamSonar::Load(sensors::SensorPtr _parent,
 
   // Read sonar properties from model.sdf
   if (!_sdf->HasElement("verticalFOV"))
-    this->verticalFOV = 10;  // Blueview P900 -> 10 degrees
+    // this->verticalFOV = 10;  // Blueview P900 -> 10 degrees
+    this->verticalFOV = 30;
   else
     this->verticalFOV =
       _sdf->GetElement("verticalFOV")->Get<double>();
@@ -624,7 +625,7 @@ void NpsGazeboRosMultibeamSonar::OnNewDepthFrame(const float *_image,
 
       if (this->depth_image_connect_count_ > 0)
         this->ComputeSonarImage(_image);
-    }
+    }vFOV
   }
   else
   {

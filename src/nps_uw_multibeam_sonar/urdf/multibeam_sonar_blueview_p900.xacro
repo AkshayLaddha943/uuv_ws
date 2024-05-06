@@ -24,7 +24,7 @@
           <!-- <mesh filename="model://blueview_p900_nps_multibeam/meshes/COLLISION-p900.dae" scale="${scale}"/>  -->
           <mesh filename="file://$(find nps_uw_multibeam_sonar)/models/blueview_p900_nps_multibeam/meshes/COLLISION-p900.dae" scale="${scale}"/>
 
-        </geometry> -->
+        </geometry> 
         <pose xyz="0 0 0" rpy="0 0 0"/>
       </collision>
     </link>
@@ -44,15 +44,18 @@
           <!-- 90 degrees for the M900-90 -->
           <horizontal_fov>1.57079632679</horizontal_fov>
           <image>
-            <width>512</width>
+            <!-- <width>512</width> -->
+            <width>684</width>
             <!-- Set vertical FOV by setting image height -->
             <!-- Approx 2 times the spec sheet (sepc: 20 deg.) -->
-            <height>228</height>
+            <!-- <height>228</height> -->
+            <height>342</height>
             <format>R8G8B8</format>
           </image>
           <clip>
             <near>0.2</near>            <!-- optimal 2m-60m -->
-            <far>${maxDistance + 2}</far>
+            <far>${maxDistance + 2}</far> 
+            <!-- <far>${maxDistance}</far> -->
           </clip>
           <depth_camera>
             <output>${name}_depths</output>
@@ -64,7 +67,7 @@
 
         <plugin filename="libnps_multibeam_sonar_ros_plugin.so" name="${name}_sensor_controller">
           <!-- Sonar properties -->
-          <verticalFOV>20</verticalFOV>
+          <verticalFOV>0</verticalFOV>
           <sonarFreq>900e3</sonarFreq>
           <bandwidth>29.9e3</bandwidth>
           <soundSpeed>1500</soundSpeed>
