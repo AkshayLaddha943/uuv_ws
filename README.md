@@ -26,17 +26,41 @@ This project contains ROS packages for development, simulation and testing of:
 - Wrote launch files to test each trajectory tracking controller available in the uuv_simulator repository (originally configured for the rexrov model) on the eca_a9 model.
 - A comparative evaluation was conducted between a non-model based sliding mode controller  [García-Valdovinos el al., 2014](https://journals.sagepub.com/doi/full/10.5772/56810), [Salgado-Jiménez et al., 2011](https://cdn.intechopen.com/pdfs/15221.pdf) and a PD geometric tracking controller. Both controllers were employed to track predefined 3D trajectories in Gazebo, and their respective performances were subsequently evaluated.
 - Conducted a comprehensive literature Review on underwater path planning, trajectory tracking, and mapping methodologies.
+- 
+  ### Tasks:
 
-### TODO:
+  - **Task #1**: Create a local octomap of the environment using FLS data.
+  - **Task #2**: Use octomap to develop a collision avoidance algorithm for the eca_a9 vehicle. Identified algorithms include:
+    1. [Tangent Bug Algorithm](https://maegantucker.com/projects/2018-04-01-me133b/)
+    2. 3DVFH+ [Venneste et. al](https://ceur-ws.org/Vol-1319/morse14_paper_08.pdf)
+  - **Task #3:** Incorporate sensor feedback into IPC.
+  - **Task #4:** Generate synthetic 3D point cloud data in MATLAB/Python and run the decision sphere algorithm.
 
-- **Issue #1**: The resulting point cloud from the sonar plug-in does not result in an accurate 3D reconstruction of the world.
+ ### Issues:
+
+- **Issue #1:** The resulting point cloud from the sonar plug-in does not result in an accurate 3D reconstruction of the world.
   - **Potential Fixes**:
-    1. **Fixing Transformation incoherencies**
+    1. **Fixing Transformation Inconsistencies**
        - Inspect the transformation parameters used in the processing of the point cloud data as well as sonar configuration to ensure accurate spatial representation.
     2. **Review Sonar Documentation**
-       - How is the point cloud being processed? Is the point cloud being used solely to create a sonar image and is not meant to be used for a 3D reconstrucion of the world? Can the raw sonar data be used to create accurate 3D point clouds?
+       - Investigate how the point cloud is being processed. Determine if the point cloud is intended solely for creating a sonar image and not for 3D reconstruction. Assess whether the raw sonar data can be utilized to create accurate 3D point clouds.
 
-- **Issue #2**: The [multibeam sonar specificiations](https://field-robotics-lab.github.io/dave.doc/contents/dave_sensors/Multibeam-Forward-Looking-Sonar/#parameters) do not meet the project requirements.
+- **Issue #2:** The [multibeam sonar parameters](https://field-robotics-lab.github.io/dave.doc/contents/dave_sensors/Multibeam-Forward-Looking-Sonar/#parameters) have a specified VFOV of 20 degrees and a range of 10-60m. Desired specs require a 30 degree VFOV and a range of 200m.   
+  - **Potential Fixes**:
+    - Study the plug-in source code to assess the feasability of modifying sonar parameters. 
+    - Investigate other plugins that meet the desired specifications.
+    - Write a new custom gazebo sonar plug-in.
+
+- **Issue #3:** Point cloud processing node for IPC currently finds a decision sphere along one axis (x axis) only.
+  - **Potential Fixes**:
+    - Revisit the math to identify potential tweaks in the parameterized equation of the decision sphere and/or the need for transformations to search along other axes.
+    - Generate synthetic point cloud data in Python/MATLAB for improved debugging.
+   
+
+
+
+
+  
   - 
 
 
