@@ -23,7 +23,7 @@ This project contains ROS packages for development, simulation and testing of:
     - **Potential Fixes**:
         1. Inspect the transformation parameters used in the processing of the point cloud data as well as sonar configuration to ensure accurate spatial representation.
         2. Investigate how the point cloud is being processed. Determine if the point cloud is intended solely for creating a sonar image and not for 3D reconstruction. Assess whether the raw sonar data can be utilized to create accurate            3D point clouds.    
-  - **Issue #2:** The [multibeam sonar parameters](https://field-robotics-lab.github.io/dave.doc/contents/dave_sensors/Multibeam-Forward-Looking-Sonar/#parameters) have a specified VFOV of 20 degrees and a range of 10-60m. Desired specs                    require a 30 degree VFOV and a range of 200m.   
+  - **Issue #2:** The [multibeam sonar parameters](https://field-robotics-lab.github.io/dave.doc/contents/dave_sensors/Multibeam-Forward-Looking-Sonar/#parameters) have a specified VFOV of 20 degrees and a range of 10-60m. Required specs are 30 degree VFOV and a range of 200m.   
       - **Potential Fixes**:
         1. Study the plug-in source code to assess the feasability of modifying sonar parameters. 
         2. Investigate other plugins that meet the desired specifications.
