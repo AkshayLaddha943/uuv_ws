@@ -1042,12 +1042,12 @@ void NpsGazeboRosMultibeamSonar::ComputeSonarImage(const float *_src)
   }
 
   // Normlize and colorize
-  cv::normalize(Intensity_image,Intensity_image,
+  cv::normalize(Intensity_image,Intensity_image,  //tried commenting these lines.
                 -255 + this->plotScaler/10*255, 255, cv::NORM_MINMAX);
   cv::Mat Itensity_image_color;
   cv::applyColorMap(Intensity_image, Itensity_image_color, cv::COLORMAP_HOT);
 
-  // Publish final sonar image
+  Publish final sonar image
   this->sonar_image_msg_.header.frame_id
         = this->frame_name_;
   this->sonar_image_msg_.header.stamp.sec
@@ -1178,7 +1178,7 @@ void NpsGazeboRosMultibeamSonar::ComputePointCloud(const float *_src)
         point_cloud_msg_.is_dense = false;
       }
 
-      // put image color data for each point
+      put image color data for each point  //tried commenting these lines.
       uint8_t*  image_src = static_cast<uint8_t*>(&(this->image_msg_.data[0]));
       if (this->image_msg_.data.size() == this->height * this->width*3)
       {
@@ -1310,5 +1310,4 @@ void NpsGazeboRosMultibeamSonar::PublishCameraInfo()
     }
   }
 }
-
 }
